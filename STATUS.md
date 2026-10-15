@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 30d8e511ed96565ce653840d3c7060fe8b6c4dff9d7d360bbc662989f56be2c9 |
+| **SHA-256 (conteúdo canónico)** | 6c27faa264dabdf960081652cfdcf4528125ce57b284aca59282f0fb86ebb9c6 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
