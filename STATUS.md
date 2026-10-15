@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 02b8373dc09a36b2a55610ee394d253af9d0d50f67c3eeeec0a096698e849ed7 |
+| **SHA-256 (conteúdo canónico)** | 7b7cec3a0d065f70f9565e37fb51d0ff2e1ca6bd336bc07b4269edb8a18c773e |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -39,7 +39,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 | F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação técnica dos oito portais-raiz: 7 PASS, 0 WARN, 1 UNKNOWN; SNS 24 requer JavaScript; raiz NICE sem validação direta; página temática NICE NG28 localizada | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO — pacote G2 preparado; aprovação pendente | Pacote G2, ADR-001, modelo de ameaças e triagem de privacidade publicados | Fechar avaliação de alojamento/logs, papéis RGPD e necessidade de AIPD; obter decisão formal G2 |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
-| F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
+| F4 — Acompanhamento pessoal | BLOQUEADO — fora do MVP | Dados pessoais de saúde excluídos da baseline aprovada | Nova decisão G1/G2, avaliação de privacidade e autorização explícita própria |
 | F5 — Testes e validação | PROPOSTO | Plano de validação documental | Executar testes numa versão concreta |
 | F6 — Piloto e lançamento | BLOQUEADO | Produto ainda não validado | Gates G3/G4/G5 e autorização formal |
 | F7 — Evolução e investigação | PROPOSTO | Conceitos sem estudo concluído | Viabilidade e análise de risco novas |
