@@ -57,29 +57,20 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
-## Documentos estruturantes adicionados
+## Documentos estruturantes adicionados nesta atualização
 
-- `ESTRUTURA_PROJETO.md`
-- `GESTAO_PROJETO/ROADMAP.md`
-- `PRODUTO/README.md`
-- `ARQUITETURA/README.md` e `ARQUITETURA/MODELO_DE_DADOS.md`
-- `SEGURANCA/README.md`
-- `QUALIDADE_TESTES/README.md`
-- `OPERACOES/README.md`
+- `docs/ESTRUTURA_REPOSITORIO.md` — árvore real inicial versus árvore-alvo.
+- `docs/ARQUITETURA.md` — arquitetura técnica proposta e fronteiras do MVP.
+- `docs/MODELO_DADOS.md` — entidades editoriais e limites para futuros dados de saúde.
+- `docs/SEGURANCA_PRIVACIDADE.md` — controlos propostos.
+- `docs/OPERACOES.md` — monitorização, backups, recuperação e release.
+- `docs/ROADMAP.md` — fases, estados e critérios de saída.
+- `docs/API.md` e `docs/ADR/README.md` — integrações e decisões arquiteturais.
+- `CARTAS/README.md`, `LAYOUT/README.md` e `GOVERNANCA/REGISTO_EXCECOES.md` — cadeia documental e governação.
+- `CLINICA/CATALOGO_FONTES.md` e `PROMPT/testes/README.md` — fontes e validação de prompts.
+- `CONTRIBUTING.md`, `SECURITY.md`, `.gitignore`, `.editorconfig`, `.env.example` e `CHANGELOG.md` — práticas do repositório.
 
-Os documentos são propostas em revisão; os campos de hash canónico dos novos documentos ainda precisam de cálculo conforme a norma GOVERNANCA, e a estrutura precisa de auditoria documental.
-
-## Documentos estruturantes adicionados
-
-- `ESTRUTURA_PROJETO.md`
-- `GESTAO_PROJETO/ROADMAP.md`
-- `PRODUTO/README.md`
-- `ARQUITETURA/README.md` e `ARQUITETURA/MODELO_DE_DADOS.md`
-- `SEGURANCA/README.md`
-- `QUALIDADE_TESTES/README.md`
-- `OPERACOES/README.md`
-
-Estes documentos são propostas em revisão. Os hashes canónicos dos novos documentos estão pendentes de cálculo segundo a norma GOVERNANCA, pelo que não se declara conformidade integral.
+Estes artefactos são propostas documentais. Os hashes canónicos dos ficheiros recentemente criados permanecem por calcular segundo a norma GOVERNANCA; a conformidade integral ainda não está demonstrada.
 
 ## Próximas ações
 
