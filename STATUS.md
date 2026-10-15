@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | e001172af919ff8c2c7cce70bf151217883ebc0d28a83c50b3b3c20b17652ce2 |
+| **SHA-256 (conteúdo canónico)** | 197f71caac4db9f2eccc138caf30904cdbcf771faccbcd5f4a415128cb6262c1 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -70,7 +70,7 @@ O pacote de decisão [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/
 - Modelo de ameaças: [docs/AMEACAS.md](docs/AMEACAS.md).
 - Triagem de privacidade: [docs/AVALIACAO_PRIVACIDADE_MVP.md](docs/AVALIACAO_PRIVACIDADE_MVP.md).
 - ADR-001: [docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md](docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md).
-- Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), aberta; não equivale a aprovação.
+- Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), fechada após aprovação explícita D1–D8 em 2026-10-15.
 
 ## Documentos estruturantes adicionados nesta atualização
 
@@ -103,7 +103,7 @@ Commits no repositório demonstram a gravação documental, não a validação c
 
 ## Verificação de governação adicional — 2026-10-15
 
-A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o comentário geral do proprietário (“OK, DEI UM ACEITE PARA TODOS.”) e não apresentava evidência individual para nomeação de responsável/revisor clínico, viabilidade ou decisão formal G0/G1. A issue foi reaberta e as caixas foram alinhadas com a evidência observada. A aceitação do âmbito e das exclusões foi registada como parcial; não constitui aprovação de gate. Implementação funcional comprovada: 0%.
+A issue #1 contém aprovação explícita D1–D8, confirmação do responsável de produto/projeto, aceitação da estimativa preliminar, custo monetário UNKNOWN e autorização limitada à preparação/avaliação G2. G0/G1 aprovados; G2 permanece pendente. Implementação funcional comprovada: 0%.
 
 
 ## Atualização de âmbito — 2026-10-15
