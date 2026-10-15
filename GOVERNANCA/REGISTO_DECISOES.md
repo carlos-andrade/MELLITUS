@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 0761ea8b4106a186d7c35d294b3676ea5e4e1c5c1d30e11ab47126385ce2392c |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **SHA-256 (conteúdo canónico)** | 5d08c8bddbc0fb88be0e5e686280025081f13378dd1aa87be5664d3fdbee0445 |
+| **Commit de referência (versão anterior)** | [79a00e786a89a057157370a4eb31e837e838bcc1](https://github.com/carlos-andrade/MELLITUS/commit/79a00e786a89a057157370a4eb31e837e838bcc1) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -37,6 +37,7 @@
 | MEL-D008 | 2026-10-15 | Aplicar gates G0–G6 e estados controlados. | EM_CURSO | Constituição GOVERNANCA. | Criar matriz de gates e aprovações. |
 
 | MEL-D009 | 2026-10-15 | Definir uma estrutura modular para o produto com documentação separada de arquitetura, segurança, qualidade, operações e produto. | EM_REVISAO | Necessidade de preparar desenvolvimento governado e evitar confundir planeamento com implementação. | Revisar ESTRUTURA_PROJETO.md e aprovar por gate aplicável. |
+| MEL-D010 | 2026-10-15 | Criar a matriz de rastreabilidade e abrir issue para formalizar decisões G0/G1. | EM_CURSO | Requisitos devem ligar-se a riscos, evidências, testes e gates; aprovações não podem ser presumidas. | docs/MATRIZ_RASTREABILIDADE.md; https://github.com/carlos-andrade/MELLITUS/issues/1 |
 
 ## Decisões pendentes
 
