@@ -6,15 +6,15 @@
 | **Projeto** | MELLITUS |
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | ESTADO_PROJETO |
-| **Fase** | F0 — Governação e requisitos |
-| **Estado** | EM_CURSO |
+| **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
+| **Estado** | EM_CURSO — G0/G1 aprovados; G2 autorizado apenas para preparação/avaliação |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | ce0f8bb8b41031f00902ac0954f26126d80519a27bc126fb4dd803167ff0346d |
+| **SHA-256 (conteúdo canónico)** | c7361edc921b4e296e69b6712dde88fc38711b209b95e8dd6d1f68de1901a95c |
 | **Commit de referência (versão anterior)** | [f7261a2991e52608b2c9368699d0d26ff42339e4](https://github.com/carlos-andrade/MELLITUS/commit/f7261a2991e52608b2c9368699d0d26ff42339e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de projeto — a formalizar |
-| **Aprovador** | Pendente de aprovação formal |
+| **Responsável** | Carlos Andrade — patrocinador e responsável de produto/projeto |
+| **Aprovador** | Carlos Andrade — D1–D8 aprovadas em 2026-10-15 |
 | **Origem** | Roadmap inicial do MELLITUS |
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -35,9 +35,9 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 | Fase | Estado | Evidência disponível | Próximo critério |
 |---|---|---|---|
-| F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, avaliar a estimativa preliminar, aprovar âmbito e registar decisão autorizada |
+| F0 — Governação e requisitos | CONCLUÍDA (D1–D8 aprovadas) | Pacote de decisão v1.0.0 e comentário explícito do proprietário na issue #1 | Manter baseline e rastreabilidade; alterações de âmbito exigem nova decisão |
 | F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação técnica dos oito portais-raiz: 7 PASS, 0 WARN, 1 UNKNOWN; SNS 24 requer JavaScript; raiz NICE sem validação direta; página temática NICE NG28 localizada | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
-| F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
+| F2 — Arquitetura e privacidade | PREPARAÇÃO AUTORIZADA — G2 ainda não aprovado | Autorização limitada na issue #1; documentação proposta em ARQUITETURA/ e SEGURANCA/ | Preparar avaliação de stack, ameaças e privacidade; obter aprovação formal G2 antes de implementar |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
 | F5 — Testes e validação | PROPOSTO | Plano de validação documental | Executar testes numa versão concreta |
@@ -46,15 +46,15 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 ## Bloqueios conhecidos
 
-- Responsável de projeto/produto por formalizar.
+- Responsável de projeto/produto formalizado: Carlos Andrade (aprovação explícita na issue #1).
 - O proprietário declarou que não haverá revisor clínico; conteúdo clínico próprio, resumos, traduções, interpretações e recomendações ficam excluídos do MVP proposto.
-- Baseline funcional MVP por aprovar.
-- Avaliação legal e de privacidade por realizar.
+- Baseline do MVP estático aprovada em D1–D8; alterações de âmbito exigem nova decisão.
+- Avaliação de arquitetura, privacidade e questões legais continua por realizar; G2 ainda não aprovado.
 - Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
 - Stack tecnológica ainda não selecionada.
 - Código da aplicação e pipeline CI ainda não verificados.
 - Auditoria cruzada dos 36 Markdown concluída anteriormente. Nesta atualização, os hashes canónicos dos quatro documentos alterados foram recalculados e verificados individualmente; os quatro coincidem com os valores declarados nos cabeçalhos.
-- Nenhum gate formal declarado aprovado.
+- G0/G1 aprovados explicitamente em 2026-10-15; G2 não aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
 ## Auditoria da estrutura (2026-10-15)
@@ -63,7 +63,7 @@ A árvore `main` foi comparada com a baseline auditada em `a865fb67477acaf225f90
 
 ## Rastreabilidade F0
 
-O pacote de decisão consolidado foi publicado em [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md). Contém baseline proposta, critérios mensuráveis, papéis candidatos e cenários de sensibilidade de custo. O documento está PRONTO_PARA_DECISAO, não aprovado; D1–D8 dependem de confirmação explícita do proprietário. G0/G1 continuam pendentes e implementação funcional permanece em 0%.
+O pacote de decisão [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md), versão 1.0.0, foi aprovado explicitamente pelo proprietário na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1#issuecomment-6197870350). D1–D8 aprovadas; G0/G1 aprovados; G2 autorizado apenas para preparação e avaliação. Custo monetário UNKNOWN e sem orçamento autorizado. Implementação funcional permanece em 0% e bloqueada.
 
 - Matriz: [docs/MATRIZ_RASTREABILIDADE.md](docs/MATRIZ_RASTREABILIDADE.md).
 - Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), aberta; não equivale a aprovação.
