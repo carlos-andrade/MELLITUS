@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — matriz alinhada com G0/G1 aprovados e G2 pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 0a81f21ca11ae44e611c9453a2fa6381fea8e842620799fe76511b53f6da965a |
+| **SHA-256 (conteúdo canónico)** | 1f1fa541675bf7759952598422332fe207f8580a303f3adb1768f89a5dff948e |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
