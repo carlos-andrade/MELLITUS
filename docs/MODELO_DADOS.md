@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | MODELO_DADOS |
 | **Fase** | F2 — Arquitetura e proteção de dados |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 1453d1f1723ebc10858b15efd633bd577488fffe723591ccaac55496aff71431 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | EM_REVISAO — modelo do MVP reduzido; G2 pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | 728abb51fb0e4a1f641c288f6968f5af3ee97a1ff6cd708213c45fc9173f093a |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de dados — a formalizar |
-| **Aprovador** | Pendente de aprovação G2 |
+| **Responsável** | Carlos Andrade — responsável de produto; responsável técnico/dados a designar |
+| **Aprovador** | Pendente de ratificação G2 |
 | **Origem** | Plano diretor e requisitos MELLITUS |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [governação MELLITUS](../GOVERNANCA/GOVERNANCA.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -24,17 +24,13 @@
 
 Modelo conceptual, não esquema SQL implementado. O MVP educativo deve funcionar sem contas pessoais nem dados de saúde individualizados. Entidades pessoais futuras estão bloqueadas até aprovação própria de requisitos, privacidade e segurança.
 
-## 2. Entidades editoriais propostas
+## 2. Modelo de dados proposto para o MVP estático
 
-**Article:** id, slug, title, summary, body, status, published_at, reviewed_at, review_due_at, locale, version.
+**SourceLink:** source_id estável, organização oficial, título oficial, URL HTTPS, tema(s), jurisdição, idioma, data de verificação técnica, estado técnico PASS/WARN/FAIL/UNKNOWN.
 
-**Source:** id, organisation, title, url, published_at, accessed_at, version, source_type.
+**Topic:** identificador e rótulo de navegação, sem descrição clínica própria.
 
-**Claim:** id, afirmação clínica exata, artigo, fonte, síntese/limitações da evidência, estado de revisão, papel do revisor e data de revisão.
-
-**EditorialReview:** id, artigo, tipo de revisão, resultado, data, papel do revisor e notas.
-
-Estes registos devem demonstrar a revisão editorial sem expor dados pessoais desnecessários.
+O catálogo será versionado em ficheiros no Git; não há persistência em base de dados. Não criar Article, Claim ou EditorialReview no MVP, pois implicariam texto editorial ou revisão clínica fora do âmbito aprovado. O título deve refletir o título da página externa, não um resumo redigido pelo MELLITUS.
 
 ## 3. Extensão pessoal condicional
 
@@ -62,3 +58,8 @@ Inventário e finalidades aprovados; fluxos e classificação revistos; acessos,
 ## 7. Próxima ação
 
 Confirmar âmbito educativo e método editorial antes de selecionar persistência ou esquema definitivo.
+
+
+## 8. Adenda G2 — 2026-10-15
+
+O modelo do MVP foi reduzido a SourceLink e Topic. A extensão pessoal (Account, ConsentRecord, GlucoseRecord, HealthEntry, ExportJob e AccessAudit) continua BLOQUEADA e não deve ser criada como parte do MVP. Nenhum dado de saúde individualizado será recolhido. Ver [pacote G2](../GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md).
