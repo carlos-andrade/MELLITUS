@@ -9,7 +9,7 @@
 | **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | e84258edf7fa71cc1c0aacc46db10c1d79a3b9ffb4af3791a2a2d3463891481d |
+| **SHA-256 (conteúdo canónico)** | 7fc97eeae2168465ffa6c7f478d89cf2ee72e66935c9939b66b6b4284cb100eb |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -44,15 +44,25 @@ Esta verificação avalia apenas o acesso ao portal-raiz, não o conteúdo clín
 | Portal | Resultado observado | Estado |
 |---|---|---|
 | DGS | Página carregada; navegação inclui área/programa de Diabetes | PASS — portal acessível |
-| SNS 24 | Título identificado, mas conteúdo textual não foi extraído | WARN — confirmar manualmente |
+| SNS 24 | Portal oficial respondeu; a página inicial indica que é uma aplicação web que requer JavaScript; o índice de pesquisa também apresenta a página oficial | PASS — acesso técnico confirmado, renderização depende de JavaScript |
 | INFARMED | Página institucional carregada | PASS — portal acessível |
 | EMA | Redirecionou para /en/homepage | PASS — redirecionamento funcional |
 | OMS/WHO | Página institucional carregada | PASS — portal acessível |
 | IDF | Página institucional carregada | PASS — portal acessível |
 | EASD | Redirecionou para /home/ | PASS — redirecionamento funcional |
-| NICE | Erro interno na ferramenta de consulta; resposta não confirmada | UNKNOWN — não marcar como validado |
+| NICE | O acesso automatizado ao portal-raiz devolveu HTTP 403; não prova indisponibilidade. Página oficial temática NG28 localizada e indexada, atualizada em 18-02-2026 | UNKNOWN — portal-raiz não validado diretamente; página temática localizada |
 
-Resumo: 6 PASS, 1 WARN, 1 UNKNOWN. Confirmar manualmente SNS 24 e NICE e verificar URLs temáticas individuais antes de as publicar no catálogo. Um portal acessível não prova atualidade nem correção clínica.
+Resumo atualizado: 7 PASS, 0 WARN, 1 UNKNOWN. O SNS 24 responde, mas a interface exige JavaScript. Para o NICE, a raiz não pôde ser validada diretamente por consulta automatizada; isso não significa que esteja indisponível. Uma página temática oficial foi localizada abaixo. Um portal acessível não prova atualidade nem correção clínica.
+
+## Páginas temáticas localizadas — 2026-10-15
+
+As páginas abaixo foram localizadas em pesquisa e identificadas como pertencentes ao domínio oficial. A verificação é técnica/editorial (existência, título, URL e data indicada pela entidade); não é revisão clínica, validação de recomendações ou confirmação de adequação individual.
+
+| Entidade | Título publicado pela entidade | URL direta | Evidência observada | Estado |
+|---|---|---|---|---|
+| NICE | Type 2 diabetes in adults: management — Blood glucose management (NG28) | https://www.nice.org.uk/guidance/ng28/chapter/Blood-glucose-management | Página oficial indexada; data de publicação indicada: 02-12-2015; última atualização indicada: 18-02-2026 | PASS — existência e metadados técnicos confirmados |
+
+Não foi ainda localizada uma página temática individual do SNS 24 sobre diabetes com evidência suficiente para registo. Não preencher por inferência.
 
 ## Metadados mínimos por registo
 
