@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | PENDENTE_DE_CALCULO_VERIFICADO |
+| **SHA-256 (conteúdo canónico)** | a0628fafa6f6427e1117d45bc80a0b13a76a1369970f35954ba9decc8bf8e502 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
