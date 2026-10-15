@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 64dede56ecd6d40d8dd1986b683e8b422719b24c7b2d99506fd9e15516b40001 |
+| **SHA-256 (conteúdo canónico)** | 54e5428ed1c9fb13a896d8fbf9eeb317181b8c07921bc01c5fc68ad273885208 |
 | **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -29,10 +29,10 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 | Fase | Entregáveis | Critérios de saída | Estado atual |
 |---|---|---|---|
 | P0 — Baseline e governação | Inventário, requisitos, responsáveis, decisões, cabeçalhos/integridade | G0/G1 formalmente aceites | EM_CURSO |
-| P1 — Evidência editorial | Catálogo de fontes e 2–3 artigos piloto revistos | Aprovação clínica editorial registada | PROPOSTO |
+| P1 — Catálogo de fontes oficiais | Catálogo de fontes oficiais, links verificados, metadados e aviso de fonte externa; sem artigos/resumos próprios | Ligações testadas e critérios do catálogo aprovados; âmbito ratificado em G0/G1 | PROPOSTO |
 | P2 — Arquitetura e proteção | Stack, modelo de dados, ameaça, privacidade, arquitetura | G2 aceite por decisores competentes | PROPOSTO |
 | P3 — Fundação técnica | Estrutura de código, configuração, testes básicos, CI | Build e testes reproduzíveis | PROPOSTO |
-| P4 — MVP educativo | UI responsiva, conteúdo, pesquisa, fontes, fluxo editorial | Requisitos MVP testados e revisão de conteúdo | PROPOSTO |
+| P4 — MVP diretório educativo | UI responsiva, navegação/pesquisa de fontes oficiais, metadados e aviso de âmbito | Requisitos testados; sem conteúdo clínico próprio e sem dados pessoais de saúde | PROPOSTO |
 | P5 — Segurança e qualidade | Testes, revisão, acessibilidade, privacidade, correções | Sem bloqueios críticos; evidências guardadas | PROPOSTO |
 | P6 — Prontidão operacional | Ambientes, backup/restore, observabilidade, runbook | G4 aceite e restauração testada | BLOQUEADO_ATÉ_P5 |
 | P7 — Piloto e lançamento | Piloto limitado, feedback, rollback, autorização | G5 e autorização explícita | BLOQUEADO_ATÉ_G4 |
@@ -50,9 +50,14 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 
 ## Próxima ação
 
-A auditoria documental cruzada dos 36 Markdown está concluída. Próxima ação: formalizar responsáveis, aprovar âmbito e requisitos MVP e concluir G0/G1 na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1); só depois iniciar G2 e a seleção da stack.
+A auditoria documental cruzada dos 36 Markdown foi concluída anteriormente. O proprietário declarou que não haverá revisor clínico; por isso, o MVP proposto foi reduzido a catálogo de ligações para fontes oficiais, sem conteúdo clínico próprio. A issue #1 continua aberta: faltam ratificação formal deste âmbito, responsáveis nomeados, evidência de viabilidade e decisão G0/G1. Só depois preparar G2 e selecionar stack.
 
 
 ## Adenda de controlo — 2026-10-15
 
 A issue #1 foi reaberta para corrigir o encerramento prematuro da checklist. O proprietário aceitou em princípio o âmbito educativo e as exclusões clínicas, mas a aprovação G0/G1 permanece pendente de evidência explícita para as restantes entradas. Não iniciar implementação funcional nem recolha de dados de saúde por inferência.
+
+
+## Adenda — ausência de revisor clínico — 2026-10-15
+
+A fase P1 passa a ser proposta como catálogo de fontes oficiais, com URL e metadados verificados. Artigos clínicos originais, resumos, traduções, interpretações e recomendações ficam fora do MVP porque o proprietário decidiu não nomear revisor clínico. Esta alteração reduz o risco, mas não constitui aprovação de G0/G1 ou G2. Registos pessoais, integrações e funções clínicas continuam bloqueados.
