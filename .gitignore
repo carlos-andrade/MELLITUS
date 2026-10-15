@@ -1,0 +1,42 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Dependencies and generated artefacts
+/vendor/
+/node_modules/
+/dist/
+/build/
+coverage/
+.phpunit.cache/
+.phpstan/
+.php-cs-fixer.cache
+
+# Runtime data and logs
+/storage/*
+!/storage/.gitkeep
+*.log
+*.sqlite
+*.dump
+*.sql.gz
+/backups/
+/exports/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary and test output
+/tmp/
+/temp/
+/.cache/
+/artifacts/
