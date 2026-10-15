@@ -9,7 +9,7 @@
 | **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 5693f5e04b17a9422e8df1f674c600754d8ee79736cbf65ce4f5b10f3cd6938b |
+| **SHA-256 (conteúdo canónico)** | f14647542699c2202252d7e30d843b4127e01a8d302f2e664ba81876d80ac1b3 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -64,6 +64,9 @@ As páginas abaixo foram localizadas em pesquisa e identificadas como pertencent
 | DGS | Diabetes | https://www.dgs.pt/paginas-de-sistema/saude-de-a-a-z/diabetes.aspx | Página oficial indexada com título “Diabetes” e referência ao Programa Nacional para a Diabetes | PASS — existência e metadados técnicos confirmados |
 | DGS | Programa Nacional para a Diabetes — Relatórios e Publicações | https://www.dgs.pt/programa-nacional-para-a-diabetes/relatorios-e-publicacoes.aspx | Página oficial indexada; lista relatórios e publicações, incluindo material de 2025 e 2024 | PASS — existência e metadados técnicos confirmados |
 | ADA | About Diabetes | https://diabetes.org/about-diabetes | Página oficial indexada; título “About Diabetes” e conteúdo introdutório identificado | PASS — existência e metadados técnicos confirmados |
+| OMS/WHO | Diabetes — Fact sheet | https://www.who.int/news-room/fact-sheets/detail/diabetes | Página oficial identificada; data apresentada pela OMS: 14-11-2024 | PASS — existência e metadados técnicos confirmados |
+| DGS | Programa Nacional para a Diabetes — Perguntas e Respostas | https://www.dgs.pt/programa-nacional-para-a-diabetes/perguntas-e-respostas.aspx | Página oficial indexada com secções “O que é a Diabetes?”, sintomas e tipos | PASS — existência e metadados técnicos confirmados |
+| NICE | Type 2 diabetes in adults: management — Initial medicines (NG28) | https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines | Página oficial indexada; publicação 02-12-2015; última atualização indicada: 18-02-2026 | PASS — existência e metadados técnicos confirmados |
 
 Não foi ainda localizada uma página temática individual do SNS 24 sobre diabetes com evidência suficiente para registo. Não preencher por inferência.
 
