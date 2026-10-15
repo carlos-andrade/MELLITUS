@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 1ff7cb1a14f275840ab7bf354fef5ea0d5fd615295de7451bc22ab93dd3ae380 |
+| **SHA-256 (conteúdo canónico)** | 2b63ed1ff819a6e3a580c16e9cfc1d93e013ebb600acba6da682dba82e7b58ab |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -105,4 +105,4 @@ A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o
 O proprietário declarou explicitamente que não haverá revisor clínico. Para não apresentar conteúdo médico como validado, a alternativa proposta para o MVP é um diretório de fontes oficiais com ligações diretas e metadados; o projeto não redigirá, resumirá, traduzirá nem interpretará conteúdo clínico e não recolherá dados pessoais de saúde. O âmbito reduzido e a viabilidade ainda precisam de ratificação G0/G1. Implementação funcional comprovada permanece 0%.
 
 
-A verificação técnica dos portais oficiais foi atualizada em 2026-10-15: 7 PASS, 0 WARN e 1 UNKNOWN. A página oficial NICE NG28 foi localizada e os metadados registados; isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
+A verificação técnica dos portais oficiais foi atualizada em 2026-10-15: 7 PASS, 0 WARN e 1 UNKNOWN. Foram localizadas páginas temáticas oficiais da NICE (NG28), DGS (Diabetes e Relatórios/Publicações) e ADA (About Diabetes); os metadados estão registados no catálogo. Isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
