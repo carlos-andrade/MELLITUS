@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — triagem preliminar; não é parecer jurídico nem AIPD concluída |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | ebef7d105faf97a6e0b0b9d8f9784ed220ace9620d475e20126cbebfdfbec165 |
+| **SHA-256 (conteúdo canónico)** | 8f72a278f6db35f45b827141e4b061fd22f53ba85e034f27d0bdb22ba460f2e7 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -85,3 +85,8 @@ Não criar base de dados de visitantes. Definir retenção de logs após anális
 ## 9. Conclusão
 
 A arquitetura estática é a opção de minimização preferida. Esta triagem não fecha a análise legal nem prova que o fornecedor não trata dados pessoais. G2 não deve ser aprovado até PR-01 a PR-03 terem evidência suficiente e o proprietário ratificar o desenho. Não recolher dados de saúde nem publicar nesta fase.
+
+
+## 10. Nota de avaliação do candidato GitHub Pages — 2026-10-15
+
+A documentação oficial de GitHub Pages declara que o endereço IP de quem visita o site é registado e armazenado para fins de segurança ([GitHub Pages — o que é e recolha de dados](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)). A disponibilidade do serviço em repositórios públicos com GitHub Free está documentada ([limites de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)). Isto identifica um candidato estático, mas também confirma tratamento de dados técnicos. A retenção concreta, os papéis RGPD, a informação a prestar e a avaliação dos termos/transferências precisam de análise adicional; não declarar a AIPD dispensada nem conformidade legal. GitHub Pages permanece CANDIDATO, não selecionado nem publicado.
