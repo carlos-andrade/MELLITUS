@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 95706385689bcf72fabe4c47ecfd8613b44026caa9602387dc18de6f4ccf0595 |
+| **SHA-256 (conteúdo canónico)** | b112d99e47d2557483e778e7658e9a40600a243d6076634129427b53b6b200a0 |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -104,3 +104,8 @@ O proprietário decidiu que não haverá revisor clínico. Assim, não se execut
 ## 10. Reauditoria após restrição de âmbito — 2026-10-15
 
 A árvore atual contém 41 ficheiros (blobs), incluindo 37 Markdown. Comparação da árvore atual com a baseline auditada: 24 dos 36 Markdown anteriores permanecem inalterados; 12 Markdown foram alterados e um novo documento foi criado. Os 13 documentos alterados/criados foram submetidos a recálculo independente de SHA-256 canónico, com 13/13 correspondências. Os restantes 24 documentos mantêm os mesmos blobs da baseline cuja auditoria anterior confirmou os hashes. A decisão do proprietário de não nomear revisor clínico foi registada; o âmbito reduzido para catálogo de fontes oficiais permanece PROPOSTO, G0/G1 continua NÃO APROVADO e a implementação funcional continua não demonstrada.
+
+
+## 11. Verificação inicial de portais oficiais — 2026-10-15
+
+Foi feita verificação técnica dos oito portais candidatos listados em CLINICA/CATALOGO_FONTES.md. Resultado observado: 6 PASS, 1 WARN (SNS 24 sem conteúdo textual extraído) e 1 UNKNOWN (NICE não confirmado nesta execução). Esta verificação limita-se ao acesso aos portais-raiz; não valida páginas temáticas, conteúdo clínico, atualidade científica nem a adequação das fontes para afirmações específicas. A implementação funcional continua não demonstrada e G0/G1 permanece pendente.
