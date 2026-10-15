@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 2b5b5301711bdd51feeb510f886dad01dd21d34d56bc5cd72cc0266f7e353049 |
+| **SHA-256 (conteúdo canónico)** | ad66ea66775ab4faac230fce3867edfc0c2932f50c0a62a7da1c23215d1ecdab |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
