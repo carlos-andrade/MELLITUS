@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | cd92492873b7b1cba6a7494f892478d1f6ace07927307249e8c04e73614f0db1 |
-| **Commit de referência (versão anterior)** | [b1eda5cb04feca0d04a238beb84c04f0c315b93e](https://github.com/carlos-andrade/MELLITUS/commit/b1eda5cb04feca0d04a238beb84c04f0c315b93e) |
+| **SHA-256 (conteúdo canónico)** | dbcec0d499ebb82563200ae352c575d74ce3151e98590d6c8d2f17e337e7d145 |
+| **Commit de referência (versão anterior)** | [4559230bea9b13ebc56f546810cfdae6949bcf71](https://github.com/carlos-andrade/MELLITUS/commit/4559230bea9b13ebc56f546810cfdae6949bcf71) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -53,7 +53,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
 - Stack tecnológica ainda não selecionada.
 - Código da aplicação e pipeline CI ainda não verificados.
-- Campos SHA-256 anteriormente pendentes foram preenchidos; verificação cruzada integral dos 35 Markdown continua pendente.
+- Auditoria cruzada dos 36 Markdown concluída; hashes canónicos e links relativos analisados validados.
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
@@ -69,6 +69,7 @@ A árvore `main` foi consultada após as alterações; os nove documentos estrut
 ## Documentos estruturantes adicionados nesta atualização
 
 - `docs/ESTRUTURA_REPOSITORIO.md` — árvore real inicial versus árvore-alvo.
+- `docs/MATRIZ_RASTREABILIDADE.md` — matriz de requisitos, riscos, testes e gates.
 - `docs/ARQUITETURA.md` — arquitetura técnica proposta e fronteiras do MVP.
 - `docs/MODELO_DADOS.md` — entidades editoriais e limites para futuros dados de saúde.
 - `docs/SEGURANCA_PRIVACIDADE.md` — controlos propostos.
@@ -83,11 +84,10 @@ Estes artefactos são propostas documentais. Os hashes canónicos dos nove docum
 
 ## Próximas ações
 
-1. Verificar cabeçalhos e calcular SHA-256 canónico segundo a norma.
-2. Formalizar responsáveis e aprovar G0/G1.
-3. Definir e aprovar requisitos do MVP.
-4. Verificar normas, fontes e obrigações legais atuais.
-5. Iniciar arquitetura apenas após aprovação de âmbito e riscos.
+1. Formalizar responsáveis e aprovar âmbito e requisitos MVP.
+2. Concluir a decisão G0/G1 na issue #1.
+3. Nomear revisor clínico qualificado e validar fontes prioritárias.
+4. Só após G0/G1, preparar G2 para stack, arquitetura e privacidade.
 
 ## Evidência
 
