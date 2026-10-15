@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 96df21e5877a5a27248388b131f988bb856ee111f5c2caceab98ba3453245ac9 |
+| **SHA-256 (conteúdo canónico)** | 95706385689bcf72fabe4c47ecfd8613b44026caa9602387dc18de6f4ccf0595 |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -99,3 +99,8 @@ A issue #1 encontrava-se fechada com checklist integralmente assinalada, embora 
 ## 9. Restrição de validação sem revisor clínico — 2026-10-15
 
 O proprietário decidiu que não haverá revisor clínico. Assim, não se executará nem se alegará validação clínica de conteúdo próprio. A proposta de MVP limita-se a organizar ligações para fontes oficiais e metadados; os testes deverão verificar destino/entidade, data de verificação, aviso de fonte externa e ausência de conteúdo clínico editorial próprio. A validade clínica das páginas externas não é certificada pelo MELLITUS. A ratificação de âmbito e G0/G1 continuam pendentes.
+
+
+## 10. Reauditoria após restrição de âmbito — 2026-10-15
+
+A árvore atual contém 41 ficheiros (blobs), incluindo 37 Markdown. Comparação da árvore atual com a baseline auditada: 24 dos 36 Markdown anteriores permanecem inalterados; 12 Markdown foram alterados e um novo documento foi criado. Os 13 documentos alterados/criados foram submetidos a recálculo independente de SHA-256 canónico, com 13/13 correspondências. Os restantes 24 documentos mantêm os mesmos blobs da baseline cuja auditoria anterior confirmou os hashes. A decisão do proprietário de não nomear revisor clínico foi registada; o âmbito reduzido para catálogo de fontes oficiais permanece PROPOSTO, G0/G1 continua NÃO APROVADO e a implementação funcional continua não demonstrada.
