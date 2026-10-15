@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 7c45e02958091c15d477595b643029fe1cf2ba16e117cec21028d8b9018bbb99 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **SHA-256 (conteúdo canónico)** | 4259cba750a8a7227ecc50b53ddde6b4828a3ab19db7bf634c31d3b9e0bc116b |
+| **Commit de referência (versão anterior)** | [1732ffa306b5857223116180410ec1403e052443](https://github.com/carlos-andrade/MELLITUS/commit/1732ffa306b5857223116180410ec1403e052443) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de qualidade — a formalizar |
@@ -18,7 +18,7 @@
 | **Origem** | Plano inicial alinhado com os gates da GOVERNANCA |
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md); [Ciclo de vida e gates](https://github.com/carlos-andrade/GOVERNANCA/blob/main/docs/02-ciclo-de-vida/ciclo-de-vida-e-gates.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
-| **Rastreabilidade** | docs/REQUISITOS.md; docs/RISCOS.md; docs/PLANO_DIRETOR.md |
+| **Rastreabilidade** | docs/REQUISITOS.md; docs/RISCOS.md; docs/PLANO_DIRETOR.md; docs/MATRIZ_RASTREABILIDADE.md |
 | **Escopo** | Validação documental, clínica, funcional, segurança, privacidade, acessibilidade e operação |
 | **Objetivo** | Definir evidência necessária antes de aceitar requisitos e gates |
 | **Dependências** | Casos de teste, ambientes controlados e revisores competentes |
@@ -76,3 +76,13 @@ Registar ID, requisito/risco, versão, ambiente, data, executor/revisor, passos,
 ## 6. Próxima ação
 
 Criar matriz de rastreabilidade quando os requisitos forem aprovados e executar testes apenas sobre artefactos concretos. Não existem resultados de teste de produto declarados como concluídos neste momento.
+
+
+## 7. Auditoria documental F0
+
+- Inventário do branch main: 35 ficheiros Markdown identificados.
+- Os ficheiros consultados começam com título H1 e apresentam os campos principais da norma; a verificação de IDs únicos e links internos deve ser mantida como controlo explícito.
+- Os campos SHA-256 anteriormente identificados como pendentes foram preenchidos. A validação cruzada final de todos os 35 hashes continua pendente até comparar o valor armazenado com recálculo independente de cada documento.
+- Matriz de rastreabilidade criada: docs/MATRIZ_RASTREABILIDADE.md.
+- Issue de decisão G0/G1 aberta: https://github.com/carlos-andrade/MELLITUS/issues/1. A issue não constitui aprovação.
+- Nenhum gate G0–G6 é declarado aprovado; a implementação funcional permanece não demonstrada.
