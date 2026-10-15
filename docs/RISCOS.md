@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | REGISTO_RISCOS |
 | **Fase** | F0 — Governação e requisitos |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 716eccaa5157e334ed28c0b349228fb2b9f12c8034216527db6c5d377784ed62 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | EM_REVISAO — riscos G2 atualizados; aceitação residual pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | f4d1daa90340004d4fa31c301c4977572d57710b735976eca8cacde638de7491 |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de risco — a formalizar |
-| **Aprovador** | Pendente de aprovação formal |
+| **Responsável** | Carlos Andrade — responsável de produto; responsáveis técnicos especializados a designar |
+| **Aprovador** | Pendente de decisão G2 |
 | **Origem** | Triagem preliminar do domínio saúde digital; não substitui avaliação formal |
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -52,3 +52,8 @@ Nomear responsáveis, rever classificação e ligar cada risco a requisitos, tes
 ## Restrição de âmbito — 2026-10-15
 
 O proprietário decidiu que não haverá revisor clínico. O risco associado à ausência de revisão não é aceite para produção de conteúdo clínico próprio; a mitigação proposta é excluir esse conteúdo do MVP e limitar o produto a ligações diretas para fontes oficiais com metadados e data de verificação. A decisão não dispensa avaliação legal, segurança, privacidade nem os gates aplicáveis. A ratificação do âmbito reduzido continua pendente.
+
+
+## Adenda G2 — 2026-10-15
+
+Foram detalhados riscos em [docs/AMEACAS.md](AMEACAS.md) e [docs/AVALIACAO_PRIVACIDADE_MVP.md](AVALIACAO_PRIVACIDADE_MVP.md). Novo bloqueador: fornecedor/região de alojamento e respetivo tratamento de logs ainda desconhecidos; não se pode fechar a avaliação de privacidade nem aceitar risco residual antes de analisar termos, retenção, subprocessadores e transferências. O desenho sem dados de saúde de visitantes, sem contas e sem analytics reduz o risco, mas não elimina o possível tratamento de dados técnicos pelo alojamento. Riscos residuais não foram aceites.
