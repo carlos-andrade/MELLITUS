@@ -9,8 +9,8 @@
 | **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 317d986df44fa4aec898eebb6943b9c8d361bf24d0206d881645486e8885724d |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **SHA-256 (conteúdo canónico)** | b87c5fe36fbcde92c8a9b69eea4f507ca15a093214bde60fee54b77d415e9f05 |
+| **Commit de referência (versão anterior)** | [b2f4e2018d79c73505dd4414119d8c12b2791267](https://github.com/carlos-andrade/MELLITUS/commit/b2f4e2018d79c73505dd4414119d8c12b2791267) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável pelo catálogo — a formalizar |
@@ -56,7 +56,7 @@ Resumo atualizado: 7 PASS, 0 WARN, 1 UNKNOWN. O SNS 24 responde, mas a interface
 
 ## Páginas temáticas localizadas — 2026-10-15
 
-As páginas abaixo foram localizadas em pesquisa e identificadas como pertencentes ao domínio oficial. A verificação é técnica/editorial (existência, título, URL e data indicada pela entidade); não é revisão clínica, validação de recomendações ou confirmação de adequação individual.
+As páginas abaixo foram verificadas por pesquisa dirigida em 2026-10-15 e identificadas como pertencentes ao domínio oficial. Para as páginas devolvidas com conteúdo indexado, foram confirmados título e URL; quando a entidade publica uma data, esta é registada. Esta evidência não equivale necessariamente a um teste HTTP direto do URL a partir de um navegador sem JavaScript. A verificação é técnica/editorial; não é revisão clínica, validação de recomendações ou confirmação de adequação individual.
 
 | Entidade | Título publicado pela entidade | URL direta | Evidência observada | Estado |
 |---|---|---|---|---|
@@ -67,11 +67,17 @@ As páginas abaixo foram localizadas em pesquisa e identificadas como pertencent
 | OMS/WHO | Diabetes — Fact sheet | https://www.who.int/news-room/fact-sheets/detail/diabetes | Página oficial identificada; data apresentada pela OMS: 14-11-2024 | PASS — existência e metadados técnicos confirmados |
 | DGS | Programa Nacional para a Diabetes — Perguntas e Respostas | https://www.dgs.pt/programa-nacional-para-a-diabetes/perguntas-e-respostas.aspx | Página oficial indexada com secções “O que é a Diabetes?”, sintomas e tipos | PASS — existência e metadados técnicos confirmados |
 | NICE | Type 2 diabetes in adults: management — Initial medicines (NG28) | https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines | Página oficial indexada; publicação 02-12-2015; última atualização indicada: 18-02-2026 | PASS — existência e metadados técnicos confirmados |
-| OMS/WHO | Diabetes — Fact sheet | https://www.who.int/news-room/fact-sheets/detail/diabetes | Página oficial identificada; data apresentada pela OMS: 14-11-2024 | PASS — existência e metadados técnicos confirmados |
-| DGS | Programa Nacional para a Diabetes — Perguntas e Respostas | https://www.dgs.pt/programa-nacional-para-a-diabetes/perguntas-e-respostas.aspx | Página oficial indexada com secções “O que é a Diabetes?”, sintomas e tipos | PASS — existência e metadados técnicos confirmados |
-| NICE | Type 2 diabetes in adults: management — Initial medicines (NG28) | https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines | Página oficial indexada; publicação 02-12-2015; última atualização indicada: 18-02-2026 | PASS — existência e metadados técnicos confirmados |
 
 Não foi ainda localizada uma página temática individual do SNS 24 sobre diabetes com evidência suficiente para registo. Não preencher por inferência.
+
+### Evidência externa consultada nesta atualização
+
+- DGS — [Perguntas e Respostas](https://www.dgs.pt/programa-nacional-para-a-diabetes/perguntas-e-respostas.aspx): título e conteúdo da página oficial apresentados no resultado consultado.
+- OMS — [Diabetes fact sheet](https://www.who.int/news-room/fact-sheets/detail/diabetes): título e data publicados “14 November 2024” apresentados pela própria entidade.
+- NICE — [Initial medicines, NG28](https://www.nice.org.uk/guidance/NG28/chapter/initial-medicines): título, data de publicação (02 December 2015) e última atualização (18 February 2026) apresentados pela própria entidade.
+- ADA — [About Diabetes](https://diabetes.org/about-diabetes): título e conteúdo da página oficial identificados.
+
+Esta evidência de pesquisa não deve ser interpretada como avaliação do conteúdo médico. Revalidar as ligações individualmente antes de qualquer publicação do catálogo.
 
 ## Metadados mínimos por registo
 
