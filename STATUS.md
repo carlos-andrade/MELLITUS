@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | bb11dee40409d619301233db261ec8be92e98d4c6254d2079f34f73286fdc211 |
+| **SHA-256 (conteúdo canónico)** | e15019e01896177cc850374d302a36fdbb9c49a28acca80dd54fe0c4301bf2b1 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -92,3 +92,8 @@ Estes artefactos são propostas documentais. A auditoria dos 36 ficheiros Markdo
 ## Evidência
 
 Commits no repositório demonstram a gravação documental, não a validação clínica, funcional ou regulatória.
+
+
+## Verificação de governação adicional — 2026-10-15
+
+A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o comentário geral do proprietário (“OK, DEI UM ACEITE PARA TODOS.”) e não apresentava evidência individual para nomeação de responsável/revisor clínico, viabilidade ou decisão formal G0/G1. A issue foi reaberta e as caixas foram alinhadas com a evidência observada. A aceitação do âmbito e das exclusões foi registada como parcial; não constitui aprovação de gate. Implementação funcional comprovada: 0%.
