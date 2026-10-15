@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 76a2e7d5c0e359716cb9e633d1e7a5fd159ed8ec25f3de050d9e954b5dc9e7cc |
+| **SHA-256 (conteúdo canónico)** | 716eccaa5157e334ed28c0b349228fb2b9f12c8034216527db6c5d377784ed62 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -29,8 +29,8 @@ Probabilidade e impacto são qualitativos e provisórios. Devem ser revistos ap�
 
 | ID | Risco | Probabilidade | Impacto | Tratamento inicial | Responsável | Estado |
 |---|---|---|---|---|---|---|
-| MEL-R-001 | Conteúdo incorreto ou desatualizado pode atrasar procura de cuidados. | Média | Crítico | Fontes rastreáveis, revisão clínica, datas e processo de correção/retirada. | Revisor clínico a nomear | ABERTO |
-| MEL-R-002 | Utilizador interpreta conteúdo como diagnóstico ou prescrição. | Média | Crítico | Limites explícitos, UX clara, testes de compreensão e exclusão de prescrição automática. | Produto + clínico | ABERTO |
+| MEL-R-001 | Ligações externas desatualizadas, quebradas ou encaminhadas para fonte inadequada podem induzir confiança indevida. | Média | Alto | Catálogo restrito a entidades oficiais, verificação de domínio/destino, data de verificação, remoção rápida e aviso de fonte externa; sem validação clínica própria. | Responsável pelo catálogo — a formalizar | ABERTO |
+| MEL-R-002 | Utilizador interpreta o diretório como recomendação médica ou validação clínica das fontes externas. | Média | Alto | Aviso visível de que o catálogo não presta aconselhamento nem valida o conteúdo externo; não produzir artigos, resumos ou recomendações clínicas próprias. | Produto — responsável a formalizar | ABERTO |
 | MEL-R-003 | Exposição de dados de saúde por falha de acesso ou configuração. | Média | Crítico | Minimização, autorização, cifragem apropriada, revisão de ameaças e resposta a incidentes. | Segurança/privacidade a nomear | ABERTO |
 | MEL-R-004 | Falta de base legal, transparência ou gestão dos direitos dos titulares. | Média | Alto | Avaliação jurídica, política clara e análise da necessidade de AIPD/DPIA. | Privacidade/jurídico | ABERTO |
 | MEL-R-005 | Funções futuras podem ser enquadradas como dispositivo médico ou IA regulada sem avaliação. | Média | Alto | Avaliar finalidade e funções antes de desenvolver/publicar. | Conformidade a nomear | ABERTO |
@@ -47,3 +47,8 @@ Riscos críticos não podem ser ignorados em lançamento. A aceitação de risco
 ## Próxima ação
 
 Nomear responsáveis, rever classificação e ligar cada risco a requisitos, testes e gates.
+
+
+## Restrição de âmbito — 2026-10-15
+
+O proprietário decidiu que não haverá revisor clínico. O risco associado à ausência de revisão não é aceite para produção de conteúdo clínico próprio; a mitigação proposta é excluir esse conteúdo do MVP e limitar o produto a ligações diretas para fontes oficiais com metadados e data de verificação. A decisão não dispensa avaliação legal, segurança, privacidade nem os gates aplicáveis. A ratificação do âmbito reduzido continua pendente.
