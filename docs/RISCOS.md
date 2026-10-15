@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — riscos G2 atualizados; aceitação residual pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | f4d1daa90340004d4fa31c301c4977572d57710b735976eca8cacde638de7491 |
+| **SHA-256 (conteúdo canónico)** | 2da982d8e31e9a07466a7c8b69adebbf73094cb17ecdc9a77d0bb4e4d5005590 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
