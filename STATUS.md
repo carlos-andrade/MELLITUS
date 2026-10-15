@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 23a3e1d0327cadb91bc128492f15dea7ce48fdfbd0799461950374ffd8d1c59b |
-| **Commit de referência (versão anterior)** | [2ec512dcb163945cd29a0f4ebdda1cb70da1ffa0](https://github.com/carlos-andrade/MELLITUS/commit/2ec512dcb163945cd29a0f4ebdda1cb70da1ffa0) |
+| **SHA-256 (conteúdo canónico)** | bb11dee40409d619301233db261ec8be92e98d4c6254d2079f34f73286fdc211 |
+| **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -74,13 +74,13 @@ A árvore `main` foi consultada após as alterações: 40 ficheiros no total, do
 - `docs/MODELO_DADOS.md` — entidades editoriais e limites para futuros dados de saúde.
 - `docs/SEGURANCA_PRIVACIDADE.md` — controlos propostos.
 - `docs/OPERACOES.md` — monitorização, backups, recuperação e release.
-- `docs/ROADMAP.md` — fases, estados e critérios de saída.
+- `docs/ROADMAP.md` — roadmap auxiliar legado; a fonte canónica é `GESTAO_PROJETO/ROADMAP.md`.
 - `docs/API.md` e `docs/ADR/README.md` — integrações e decisões arquiteturais.
 - `CARTAS/README.md`, `LAYOUT/README.md` e `GOVERNANCA/REGISTO_EXCECOES.md` — cadeia documental e governação.
 - `CLINICA/CATALOGO_FONTES.md` e `PROMPT/testes/README.md` — fontes e validação de prompts.
 - `CONTRIBUTING.md`, `SECURITY.md`, `.gitignore`, `.editorconfig`, `.env.example` e `CHANGELOG.md` — práticas do repositório.
 
-Estes artefactos são propostas documentais. Os hashes canónicos dos nove documentos estruturantes desta atualização foram calculados e validados. A conformidade integral de todos os documentos preexistentes ainda requer auditoria própria.
+Estes artefactos são propostas documentais. A auditoria dos 36 ficheiros Markdown foi concluída: cabeçalhos e campos obrigatórios presentes, IDs únicos, hashes canónicos coincidentes e links relativos analisados sem destinos inexistentes. A aplicação continua sem implementação funcional verificada.
 
 ## Próximas ações
 
