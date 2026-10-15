@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | b112d99e47d2557483e778e7658e9a40600a243d6076634129427b53b6b200a0 |
+| **SHA-256 (conteúdo canónico)** | 6ed0876bd86148e8920f381dec01647eb33b4701de0872b20bd113a3a6b888c2 |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -109,3 +109,12 @@ A árvore atual contém 41 ficheiros (blobs), incluindo 37 Markdown. Comparaçã
 ## 11. Verificação inicial de portais oficiais — 2026-10-15
 
 Foi feita verificação técnica dos oito portais candidatos listados em CLINICA/CATALOGO_FONTES.md. Resultado observado: 6 PASS, 1 WARN (SNS 24 sem conteúdo textual extraído) e 1 UNKNOWN (NICE não confirmado nesta execução). Esta verificação limita-se ao acesso aos portais-raiz; não valida páginas temáticas, conteúdo clínico, atualidade científica nem a adequação das fontes para afirmações específicas. A implementação funcional continua não demonstrada e G0/G1 permanece pendente.
+
+
+## Execução adicional — verificação de fontes e controlo de governação — 2026-10-15
+
+- SNS 24: PASS técnico para resposta do portal; a interface indica dependência de JavaScript. A verificação não atesta conteúdo clínico.
+- NICE: UNKNOWN para validação direta do portal-raiz, porque a consulta automatizada recebeu HTTP 403. Não inferir indisponibilidade. Página oficial temática NG28 localizada; título, URL e última atualização indicada (18-02-2026) registados no catálogo.
+- Catálogo: estado técnico consolidado de 7 PASS, 0 WARN e 1 UNKNOWN para oito portais-raiz. A página temática NICE é uma evidência separada e não altera o estado do portal-raiz.
+- Issue #1: corrigidas seis caixas indevidamente assinaladas como concluídas. Mantêm-se pendentes aprovação do âmbito, baseline aprovada, nomeação de responsáveis, viabilidade/custos/riscos, decisão formal G0/G1 e decisão de passagem a G2.
+- Resultado: correção documental executada; G0/G1 continuam NÃO APROVADOS; implementação funcional comprovada permanece 0%. Não foram executados testes de runtime porque não há aplicação funcional verificada.
