@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 4420014b1ea988598de1af9118e4aa9dad66b79e46771860c7699c0b0e1cb561 |
+| **SHA-256 (conteúdo canónico)** | fa4dada48acb3a4a88149aff1c828152c81bf1f2a93abe419e5eb61db26ff4bb |
 | **Commit de referência (versão anterior)** | [462c618f239e31d351723ac06d899fc5ca8f4d24](https://github.com/carlos-andrade/MELLITUS/commit/462c618f239e31d351723ac06d899fc5ca8f4d24) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -19,19 +19,20 @@
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md); [Norma de cabeçalho](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CABE%C3%87ALHO/NORMA-CABECALHO-PADRAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
 | **Rastreabilidade** | docs/PLANO_DIRETOR.md; GOVERNANCA/REGISTO_DECISOES.md; STATUS.md |
-| **Escopo** | Educação pública sobre diabetes e acompanhamento pessoal futuro; diagnóstico e prescrição excluídos |
+| **Escopo** | MVP proposto: diretório de fontes oficiais sobre diabetes; sem conteúdo clínico próprio nem dados pessoais de saúde |
 | **Objetivo** | Criar uma plataforma acessível, segura e auditável apoiada em fontes clínicas rastreáveis |
-| **Dependências** | Revisão clínica qualificada, avaliação de privacidade e requisitos legais aplicáveis |
+| **Dependências** | Verificação de links/fontes, avaliação de privacidade aplicável, responsabilidades e aprovação G0/G1 |
 
 ## Visão
 
-O MELLITUS é uma plataforma digital de informação, educação e, numa fase posterior, acompanhamento pessoal de registos relacionados com diabetes. Será desenvolvido por fases, com controlo de âmbito, decisões rastreáveis, validação científica, privacidade e segurança desde a conceção.
+O MELLITUS está a ser preparado como diretório digital de fontes oficiais sobre diabetes, com pesquisa, navegação, ligações diretas e metadados. O proprietário decidiu que não haverá revisor clínico; por isso, o MVP proposto não produzirá artigos, resumos, traduções, interpretações ou recomendações clínicas próprias. O acompanhamento pessoal permanece fora do MVP e bloqueado até gates próprios.
 
 ## Objetivos
 
-- Disponibilizar conteúdos compreensíveis e apoiados por fontes rastreáveis.
-- Explicar os tipos de diabetes, sintomas, prevenção de complicações e opções de tratamento com revisão profissional adequada.
-- Avaliar registos pessoais opcionais apenas depois de definidos requisitos, riscos e controlos.
+- Facilitar a descoberta de páginas de entidades oficiais sobre diabetes.
+- Identificar entidade, título, URL, jurisdição/idioma e data de verificação do link.
+- Não produzir conteúdo clínico próprio nem apresentar páginas externas como validadas pelo MELLITUS.
+- Avaliar registos pessoais apenas depois de definidos requisitos, riscos e controlos próprios.
 - Permitir controlo adequado dos dados pessoais, incluindo acesso, exportação e eliminação conforme aplicável.
 - Manter decisões, versões, testes, incidentes e aprovações auditáveis.
 
@@ -40,7 +41,8 @@ O MELLITUS é uma plataforma digital de informação, educação e, numa fase po
 - O MELLITUS não substitui profissionais de saúde nem serviços de emergência.
 - Não diagnostica nem exclui a possibilidade de doença.
 - Não prescreve nem recomenda alterações autónomas de doses de insulina ou de outra medicação.
-- Nenhum conteúdo clínico deve ser publicado como validado sem fontes verificáveis e revisão apropriada.
+- O MVP não produzirá conteúdo clínico próprio, resumos, traduções, interpretações ou recomendações, porque não haverá revisor clínico.
+- As ligações externas são fontes de terceiros; a inclusão no catálogo não constitui validação clínica pelo MELLITUS.
 - Funcionalidades potencialmente enquadradas como dispositivo médico ou sistema de IA regulado ficam bloqueadas até avaliação adequada.
 
 ## Roadmap
@@ -48,11 +50,11 @@ O MELLITUS é uma plataforma digital de informação, educação e, numa fase po
 | Fase | Nome | Resultado esperado |
 |---|---|---|
 | F0 | Governação e requisitos | Charter, âmbito, responsáveis, riscos, requisitos e gates |
-| F1 | Investigação clínica e científica | Catálogo de fontes e fluxo de revisão editorial |
+| F1 | Catálogo de fontes oficiais | Links e metadados verificados; sem conteúdo clínico próprio |
 | F2 | Arquitetura e proteção de dados | Arquitetura, modelo de dados, ameaças e controlos |
-| F3 | MVP educativo | Conteúdo pesquisável, navegação acessível e referências |
+| F3 | MVP diretório de fontes | Pesquisa, navegação acessível, links oficiais e metadados |
 | F4 | Acompanhamento pessoal | Registos opcionais, histórico, tendências e exportação |
-| F5 | Testes e validação | Evidências de qualidade, revisão clínica, privacidade e segurança |
+| F5 | Testes e validação | Evidências de qualidade, links, acessibilidade, privacidade e segurança |
 | F6 | Piloto e lançamento | Piloto, correções e autorização de publicação |
 | F7 | Evolução e investigação | Avaliação de integrações e funcionalidades avançadas |
 
