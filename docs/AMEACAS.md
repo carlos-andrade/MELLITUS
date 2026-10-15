@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — modelo documental; sem teste técnico executado |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | d1a238995a464203943a73ffb19e77eb6ff92055b86f93569623e2a2832975fa |
+| **SHA-256 (conteúdo canónico)** | 048cdea76c040040f7b76ef26611c9e633442fa6b9bcc32694ba73a373ecb727 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -74,3 +74,8 @@ Todos os critérios permanecem UNKNOWN até teste numa implementação autorizad
 ## 6. Decisão
 
 Riscos residuais não são aceites por este documento. TM-06 bloqueia G2 até seleção e avaliação do alojamento. Os controlos são propostas, não prova de execução.
+
+
+## 7. Evidência adicional de alojamento — 2026-10-15
+
+GitHub Pages declara que regista e armazena o IP dos visitantes para fins de segurança ([documentação oficial](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)). Esta evidência confirma que o risco TM-06 não pode ser marcado como inexistente, mesmo num site estático. Retenção, papéis e informação de privacidade continuam pendentes; GitHub Pages não está selecionado nem publicado.
