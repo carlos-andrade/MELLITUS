@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 96a3d69de9e67e21112eccdd96ec0b37ed0516e1cc76964f46d14e5eaa76f89e |
-| **Commit de referência (versão anterior)** | [695153ec62e95369a3a4fd17e711cfb576c1a962](https://github.com/carlos-andrade/MELLITUS/commit/695153ec62e95369a3a4fd17e711cfb576c1a962) |
+| **SHA-256 (conteúdo canónico)** | 2023260e65766a92ad09064561e3463a72a272e828904a928bb423d23e6965a2 |
+| **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -50,4 +50,4 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 
 ## Próxima ação
 
-Concluir F0 com auditoria documental cruzada, formalização de responsáveis, aprovação do âmbito e decisão G0/G1 registada na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1); só depois iniciar P2 e P3.
+A auditoria documental cruzada dos 36 Markdown está concluída. Próxima ação: formalizar responsáveis, aprovar âmbito e requisitos MVP e concluir G0/G1 na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1); só depois iniciar G2 e a seleção da stack.
