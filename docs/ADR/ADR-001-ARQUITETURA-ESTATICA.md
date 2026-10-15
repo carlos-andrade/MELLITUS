@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | PROPOSTO — decisão pronta para ratificação, não aprovada |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 501a415932cc9fb4c507cf7f7ac2e6d537ec1ac1e7534cd4460b9d4230e8346d |
+| **SHA-256 (conteúdo canónico)** | 703f70755aed0d4f9eb72002de5bbf91169aa7670a9f77016ce44f3323b86ee7 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
