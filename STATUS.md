@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 2b63ed1ff819a6e3a580c16e9cfc1d93e013ebb600acba6da682dba82e7b58ab |
+| **SHA-256 (conteúdo canónico)** | 30d8e511ed96565ce653840d3c7060fe8b6c4dff9d7d360bbc662989f56be2c9 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -53,7 +53,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
 - Stack tecnológica ainda não selecionada.
 - Código da aplicação e pipeline CI ainda não verificados.
-- Auditoria cruzada dos 36 Markdown concluída anteriormente; após esta atualização, os hashes dos documentos alterados estão a ser recalculados e verificados.
+- Auditoria cruzada dos 36 Markdown concluída anteriormente. Nesta atualização, os hashes canónicos dos quatro documentos alterados foram recalculados e verificados individualmente; os quatro coincidem com os valores declarados nos cabeçalhos.
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
