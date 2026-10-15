@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | f980506c28fdcd90c78c7b80a3bb8804abf600944bf574f22b8bc5b53bc28dfc |
+| **SHA-256 (conteúdo canónico)** | 1ff7cb1a14f275840ab7bf354fef5ea0d5fd615295de7451bc22ab93dd3ae380 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -36,7 +36,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 | Fase | Estado | Evidência disponível | Próximo critério |
 |---|---|---|---|
 | F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, aprovar âmbito e registar decisão autorizada |
-| F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação inicial dos oito portais-raiz: 6 PASS, 1 WARN, 1 UNKNOWN; páginas temáticas ainda por verificar | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
+| F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação técnica dos oito portais-raiz: 7 PASS, 0 WARN, 1 UNKNOWN; SNS 24 requer JavaScript; raiz NICE sem validação direta; página temática NICE NG28 localizada | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
@@ -53,7 +53,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
 - Stack tecnológica ainda não selecionada.
 - Código da aplicação e pipeline CI ainda não verificados.
-- Auditoria cruzada dos 36 Markdown concluída; hashes canónicos e links relativos analisados validados.
+- Auditoria cruzada dos 36 Markdown concluída anteriormente; após esta atualização, os hashes dos documentos alterados estão a ser recalculados e verificados.
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
@@ -105,4 +105,4 @@ A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o
 O proprietário declarou explicitamente que não haverá revisor clínico. Para não apresentar conteúdo médico como validado, a alternativa proposta para o MVP é um diretório de fontes oficiais com ligações diretas e metadados; o projeto não redigirá, resumirá, traduzirá nem interpretará conteúdo clínico e não recolherá dados pessoais de saúde. O âmbito reduzido e a viabilidade ainda precisam de ratificação G0/G1. Implementação funcional comprovada permanece 0%.
 
 
-A verificação inicial dos portais oficiais em 2026-10-15 registou 6 PASS, 1 WARN e 1 UNKNOWN. O detalhe e as limitações estão em CLINICA/CATALOGO_FONTES.md; não equivale a revisão clínica.
+A verificação técnica dos portais oficiais foi atualizada em 2026-10-15: 7 PASS, 0 WARN e 1 UNKNOWN. A página oficial NICE NG28 foi localizada e os metadados registados; isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
