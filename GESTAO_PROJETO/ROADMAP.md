@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | G0/G1 APROVADOS; G2 EM_REVISAO — preparação documental |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | a680ff419c1029645b71e7c98c205ebd3bb1e5b0225181080c31adca208b7d8a |
+| **SHA-256 (conteúdo canónico)** | a65272dfc4fcedfd76e1423f907151b8911061191eb17443ccb18435bf61ffa3 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -77,4 +77,4 @@ A fase P1 passa a ser proposta como catálogo de fontes oficiais, com URL e meta
 
 ## Adenda — preparação G2 — 2026-10-15
 
-Foram publicados [PACOTE_G2_ARQUITETURA_PRIVACIDADE.md](PACOTE_G2_ARQUITETURA_PRIVACIDADE.md), [modelo de ameaças](../docs/AMEACAS.md), [triagem de privacidade](../docs/AVALIACAO_PRIVACIDADE_MVP.md) e [ADR-001](../docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md). Arquitetura estática sem backend/base de dados é a opção recomendada para ratificação. Fornecedor/região, logs, subprocessadores, papéis RGPD e necessidade de AIPD permanecem pendentes. G2 está EM_REVISAO e não aprovado. Implementação, publicação e custos continuam não autorizados.
+Foram publicados [PACOTE_G2_ARQUITETURA_PRIVACIDADE.md](PACOTE_G2_ARQUITETURA_PRIVACIDADE.md), [modelo de ameaças](../docs/AMEACAS.md), [triagem de privacidade](../docs/AVALIACAO_PRIVACIDADE_MVP.md) e [ADR-001](../docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md). Arquitetura estática sem backend/base de dados é a opção recomendada para ratificação. Fornecedor/região, logs, subprocessadores, papéis RGPD e necessidade de AIPD permanecem pendentes e estão rastreados na [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2). G2 está EM_REVISAO e não aprovado. Implementação, publicação e custos continuam não autorizados.
