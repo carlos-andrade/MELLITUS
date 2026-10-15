@@ -9,7 +9,7 @@
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO — arquitetura estática proposta; G2 não aprovado |
 | **Versão** | 1.2.0 |
-| **SHA-256 (conteúdo canónico)** | 53c07afcde472303124f95d2c5620d90fe985fe5c645f3f306adc54c018d17eb |
+| **SHA-256 (conteúdo canónico)** | 21be5ab9c3310657f9de8f2a7b7d2cd1e5f945e0c497ea216348fb695fc35cdf |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
