@@ -9,7 +9,7 @@
 | **Fase** | F1 — Investigação clínica e científica |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 7e5a9038e67f022ec4a4c4ce60efca77ca7e0755f0f9717097bc0ba7874ae1f6 |
+| **SHA-256 (conteúdo canónico)** | aee633682a60d4c861511c936809b7fb62fc6748c7459be219c3a05021b19a15 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
