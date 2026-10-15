@@ -8,8 +8,8 @@
 | **Tipo documental** | ARQUITETURA |
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO — arquitetura estática proposta; G2 não aprovado |
-| **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 8c26e86d66ef700e53197c072f94e725c7b13d2711f165be42b3cfc3b294408f |
+| **Versão** | 1.2.0 |
+| **SHA-256 (conteúdo canónico)** | 53c07afcde472303124f95d2c5620d90fe985fe5c645f3f306adc54c018d17eb |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -35,69 +35,59 @@ Arquitetura de referência proposta, não prova de implementação, aprovação 
 - Alterações persistentes devem ser migráveis, rastreáveis e recuperáveis.
 - Funcionalidades clínicas personalizadas ficam fora do MVP e exigem nova avaliação de risco, finalidade e regulamentação.
 
-## 3. Arquitetura lógica
+## 3. Arquitetura lógica do MVP
 
-```text
-Navegador
-  -> HTTPS e políticas de segurança
-  -> Apresentação / controladores HTTP
-  -> Validação de pedidos
-  -> Serviços de aplicação
-  -> Domínio: conteúdo, fontes, revisão, pesquisa
-  -> Interfaces de repositório
-  -> Persistência editorial (apenas se necessária)
-  -> Logs minimizados, métricas e alertas
-```
+Fluxo proposto:
 
-No MVP, páginas podem ser geradas a partir de conteúdo versionado se isso satisfizer pesquisa, publicação e revisão. Não introduzir uma base de dados sem necessidade documentada.
+Catálogo versionado no Git → validação futura dos metadados/URLs → geração de ficheiros estáticos → fornecedor de alojamento ainda por escolher → navegador do visitante → link externo aberto pelo visitante.
 
-## 4. Stack técnica proposta a validar
+O navegador não envia formulários nem termos de pesquisa ao servidor. A pesquisa, se necessária, é local sobre os metadados já descarregados. Não há API, backend, base de dados ou sessão de utilizador no desenho-base.
 
-- PHP numa versão suportada no momento da implementação.
-- PHP modular; framework apenas após decisão arquitetural registada.
-- HTML semântico, CSS responsivo e JavaScript mínimo.
-- Markdown versionado ou sistema editorial aprovado.
-- PostgreSQL ou MySQL/MariaDB apenas se requisitos justificarem persistência.
-- Composer quando forem adotadas dependências PHP.
-- GitHub Actions para lint, testes e análise estática depois de configurar e validar workflows.
-- Alojamento por escolher com base em segurança, localização dos dados, recuperação e orçamento.
+## 4. Stack técnica proposta
 
-Nenhuma framework, versão ou fornecedor está selecionado até registo de decisão.
+- HTML semântico e CSS responsivo.
+- JavaScript mínimo, sem bibliotecas remotas; pesquisa local apenas se necessária.
+- Catálogo em JSON/CSV/Markdown versionado no Git, com esquema e validação a definir antes de construir.
+- Sem framework de servidor, Composer, PHP, SQL ou CMS no MVP-base.
+- CI e geração automatizada apenas após autorização G3; permissões mínimas e sem segredos de runtime.
+- Fornecedor e região de alojamento ainda por selecionar. A escolha depende da análise de termos, logs, retenção, subprocessadores, localização, recuperação e custo.
+- Não se assume qualquer custo ou compromisso financeiro.
 
-## 5. Estrutura-alvo de código
+## 5. Estrutura-alvo de conteúdo
 
-```text
-app/
-├── Domain/{Content,Sources,EditorialReview}/
-├── Application/{Content,Search,UseCase}/
-├── Infrastructure/{Persistence,Logging,Security}/
-└── Presentation/Http/{Controllers,Middleware}/
-config/
-database/{migrations,seeds}/
-public/{assets/css,assets/js,assets/images}/
-resources/{views,content,locales/pt-PT}/
-routes/
-storage/{cache,logs}/
-tests/{Unit,Integration,Feature,Security,Accessibility}/
-scripts/
-```
+- catálogo: registos SourceLink e temas de navegação;
+- public: páginas HTML e ativos estáticos gerados;
+- tests: validação de esquema, URLs/domínios, avisos, acessibilidade e ausência de recursos de terceiros;
+- documentação: ADR, ameaças, triagem de privacidade, resultados de testes e decisões.
 
-Esta estrutura é proposta; não significa que os componentes já existam.
+Esta estrutura é proposta; não significa que código ou pipeline já existam.
 
 ## 6. Componentes e fronteiras
 
-### MVP educativo
-Página inicial, navegação, artigos, glossário, pesquisa, fonte e datas de revisão, fluxo editorial autorizado e acessibilidade. Sem perfil clínico, registo pessoal ou diagnóstico.
+### MVP estático
 
-### Acompanhamento pessoal futuro
-Exige aprovação separada de requisitos, privacidade, segurança, usabilidade e avaliação regulatória. Deve contemplar isolamento de dados por utilizador, controlo de acesso, auditoria, exportação, eliminação, retenção e resposta a incidentes. Diagnóstico, dosagem e alterações autónomas de tratamento permanecem fora do âmbito autorizado.
+Página de entrada, navegação por temas, pesquisa local opcional, metadados de fontes oficiais, data/estado de verificação e aviso de fonte externa. Não publicar artigos clínicos próprios, resumos, traduções, interpretações ou recomendações.
+
+### Fronteiras de confiança
+
+- Repositório Git: integridade, controlo de alterações e identidade de colaboradores.
+- Processo de build/publicação futuro: só depois de G3; não ativo.
+- Fornecedor de alojamento: pode processar logs técnicos; avaliação pendente.
+- Sites externos: fora do controlo direto do MELLITUS; o link não valida clinicamente o destino.
 
 ### Operação
-Health checks sem dados sensíveis, logs minimizados, backups e restauro testados. WATCHDOG só pode ser declarado ativo após integração, testes ponta a ponta e evidência.
 
-## 7. Segurança mínima
+Nenhum WATCHDOG, backup/restore, rollback ou observabilidade é declarado ativo. Estes controlos requerem escolha de alojamento, desenho operacional e evidência antes de produção.
 
-HTTPS; validação server-side; consultas parametrizadas se houver SQL; codificação contextual contra XSS; proteção CSRF em operações mutáveis; sessões e cookies seguros; autorização server-side; limitação de pedidos conforme risco; CSP e cabeçalhos de segurança; segredos fora do Git; dependências suportadas; erros públicos sem stack trace, segredos ou dados clínicos.
+## 7. Segurança e privacidade no desenho
+
+- Sem contas, perfis, formulários, uploads, comentários ou dados de saúde.
+- Sem analytics, cookies próprios, pixels publicitários ou recursos remotos de terceiros.
+- Links HTTPS e domínios permitidos; data e estado técnico explícitos.
+- Aviso visível de fonte externa e ausência de aconselhamento/validação clínica.
+- Sem segredos no catálogo; histórico Git para alterações.
+- Avaliar cabeçalhos de segurança e CSP conforme capacidades do fornecedor escolhido.
+- Ver [modelo de ameaças](AMEACAS.md) e [triagem de privacidade](AVALIACAO_PRIVACIDADE_MVP.md).
 
 ## 8. Privacidade e dados
 
