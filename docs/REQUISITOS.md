@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | ESPECIFICACAO |
 | **Fase** | F0 — Governação e requisitos |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | d8356f3e1e7891725c075f6a21c23de5823d134d70bf608a329b3a33c04311a2 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | APROVADO — baseline funcional do MVP estático (G0/G1) |
+| **Versão** | 1.2.0 |
+| **SHA-256 (conteúdo canónico)** | 706d61316da7177728852114ec9d0a1aa0e1c7687f73893f5ed05b7c4de46f0c |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de produto — a formalizar |
-| **Aprovador** | Pendente de aprovação formal |
+| **Responsável** | Carlos Andrade — patrocinador e responsável de produto/projeto |
+| **Aprovador** | Carlos Andrade — aprovação D1–D8 na issue #1 |
 | **Origem** | Briefing inicial, sujeito a validação de viabilidade |
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md); [Norma de cabeçalho](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CABE%C3%87ALHO/NORMA-CABECALHO-PADRAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -31,7 +31,7 @@ Cada requisito recebe ID único. O estado inicial é proposta, não requisito ap
 
 | ID | Requisito | Prioridade | Critério de aceitação | Estado |
 |---|---|---|---|---|
-| MEL-FR-001 | Disponibilizar catálogo navegável de ligações para páginas oficiais sobre diabetes, sem produzir conteúdo clínico próprio. | Alta | Cada registo aponta para página de entidade oficial e identifica a fonte externa. | PROPOSTO — âmbito reduzido pendente de ratificação |
+| MEL-FR-001 | Disponibilizar catálogo navegável de ligações para páginas oficiais sobre diabetes, sem produzir conteúdo clínico próprio. | Alta | Cada registo aponta para página de entidade oficial e identifica a fonte externa. | APROVADO — baseline G0/G1 |
 | MEL-FR-002 | Apresentar entidade, título, URL, jurisdição/idioma e data de verificação de cada ligação externa. | Alta | Metadados preenchidos e ligação testada, com data registada. | PROPOSTO |
 | MEL-FR-003 | Permitir navegação por temas e pesquisa de conteúdo. | Alta | Testes funcionais de navegação e pesquisa aprovados. | PROPOSTO |
 | MEL-FR-004 | Explicar que o MELLITUS é um diretório de fontes externas e não valida nem substitui aconselhamento clínico. | Alta | Aviso visível na página inicial e junto dos resultados; teste de presença aprovado. | PROPOSTO |
@@ -42,7 +42,7 @@ Cada requisito recebe ID único. O estado inicial é proposta, não requisito ap
 
 | ID | Requisito | Prioridade | Critério de aceitação | Estado |
 |---|---|---|---|---|
-| MEL-FR-101 | Permitir registo voluntário de medições e observações aprovadas no âmbito. | Alta | Permissões, validação e testes demonstrados antes do piloto. | BLOQUEADO_ATÉ_G2 |
+| MEL-FR-101 | Permitir registo voluntário de medições e observações aprovadas no âmbito. | Alta | Permissões, validação e testes demonstrados antes do piloto. | BLOQUEADO — fora do MVP; nova decisão G1/G2 exigida |
 | MEL-FR-102 | Mostrar histórico e gráficos sem alegações diagnósticas automáticas. | Alta | Resultados conferem com dados de teste e limites são visíveis. | BLOQUEADO_ATÉ_G2 |
 | MEL-FR-103 | Permitir exportar os próprios dados num formato documentado. | Média | Exportação validada e autorizada, sem dados de terceiros. | BLOQUEADO_ATÉ_G2 |
 | MEL-FR-104 | Permitir pedido de eliminação quando aplicável, considerando políticas de retenção e cópias de segurança. | Alta | Fluxo documentado e testado. | BLOQUEADO_ATÉ_G2 |
@@ -77,3 +77,8 @@ Ligar cada requisito a riscos, decisões, implementação e testes. Não reutili
 ## 7. Restrição de escopo decorrente da decisão de não nomear revisor clínico — 2026-10-15
 
 O proprietário declarou que não haverá revisor clínico. Como consequência de segurança, a baseline proposta para o MVP limita-se a um diretório de páginas de entidades oficiais, com ligações diretas e metadados de origem. O projeto não redigirá, resumirá, traduzirá, interpretará nem recomendará conteúdo clínico. A inclusão no catálogo não equivale a validação clínica da página externa. Cada ligação deverá ter data de verificação. Esta alteração de âmbito permanece proposta até ratificação formal G0/G1. Os requisitos de registos pessoais continuam bloqueados e fora do MVP.
+
+
+## 7. Adenda G2 — 2026-10-15
+
+A baseline aprovada para o MVP é um diretório estático de links e metadados oficiais. Requisitos de acompanhamento pessoal (MEL-FR-101 a MEL-FR-104) continuam bloqueados e não são autorizados pela aprovação G2 de arquitetura. O desenho não prevê contas, formulários, backend, base de dados, analytics ou recolha de dados de saúde. Ver [pacote G2](../GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md).
