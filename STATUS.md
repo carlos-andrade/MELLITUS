@@ -57,6 +57,10 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
 
+## Auditoria da estrutura (2026-10-15)
+
+A árvore `main` foi consultada após as alterações; os nove documentos estruturantes esperados estão presentes e os cabeçalhos possuem título H1 e campos principais. A validação ainda é parcial: os novos documentos mantêm `PENDENTE_CALCULO` no campo SHA-256 e, portanto, não passam a validação de integridade da norma até ao recálculo correto. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
+
 ## Documentos estruturantes adicionados nesta atualização
 
 - `docs/ESTRUTURA_REPOSITORIO.md` — árvore real inicial versus árvore-alvo.
