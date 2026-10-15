@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 0847ab9d3d87d93c2a6f6583777d8428eec298964bb8a8bc004d5c55aaebd4a3 |
+| **SHA-256 (conteúdo canónico)** | 8a3d10dbd3ec1988f72a65b8012c2bb13480f9e07ce0458b3cbadca01c0941e7 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -120,3 +120,6 @@ A verificação de páginas temáticas oficiais continua a ser evidência de pes
 ## Adenda de auditoria G2 — 2026-10-15
 
 Preparação documental concluída: pacote de decisão, ADR-001, modelo de ameaças e triagem de privacidade publicados; arquitetura, modelo de dados, riscos e matriz alinhados ao MVP estático. G2 permanece EM_REVISAO. Alojamento/região, tratamento de logs, papéis RGPD e determinação formal sobre AIPD continuam UNKNOWN/PENDENTE. Implementação funcional comprovada: 0%; sem autorização para construir, publicar, recolher dados ou assumir custos.
+
+
+A avaliação de fornecedor identificou GitHub Pages como candidato tecnicamente compatível, não selecionado: a documentação oficial indica registo e armazenamento de IPs de visitantes para segurança. A avaliação de retenção, papéis RGPD e informação de privacidade continua pendente. Ver [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2).
