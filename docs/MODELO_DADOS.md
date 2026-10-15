@@ -9,7 +9,7 @@
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO — modelo do MVP reduzido; G2 pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 728abb51fb0e4a1f641c288f6968f5af3ee97a1ff6cd708213c45fc9173f093a |
+| **SHA-256 (conteúdo canónico)** | 6671d5d738e54c09792197ae788bcee64d031d88753cb591b8eaae148d5440e9 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
