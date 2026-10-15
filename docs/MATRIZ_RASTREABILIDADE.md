@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — matriz alinhada com G0/G1 aprovados e G2 pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 1f1fa541675bf7759952598422332fe207f8580a303f3adb1768f89a5dff948e |
+| **SHA-256 (conteúdo canónico)** | 431a273c606e8e4b1f637071727af1f96bad2f73dc58ebeee6686c969dec438a |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -28,7 +28,7 @@ Ligar os requisitos iniciais a riscos, evidências, testes e gates. A matriz rep
 
 | Requisito | Risco relacionado | Evidência/artefacto exigido | Teste/validação exigida | Gate | Estado atual |
 |---|---|---|---|---|---|
-| MEL-FR-001 — catálogo de fontes | MEL-R-001, MEL-R-002 | Registo com entidade oficial, título, URL e metadados | Verificar domínio, destino, data e aviso de fonte externa | G1/G2/G3 | PROPOSTO — âmbito reduzido por ratificar; sem texto clínico próprio |
+| MEL-FR-001 — catálogo de fontes | MEL-R-001, MEL-R-002 | Registo com entidade oficial, título, URL e metadados | Verificar domínio, destino, data e aviso de fonte externa | G1/G2/G3 | BASELINE APROVADA — implementação e testes ainda não executados |
 | MEL-FR-002 — metadados e verificação de links | MEL-R-001, MEL-R-008 | Registo de fonte, jurisdição/idioma e data de verificação | Testar URL e confirmar entidade/domínio; registar falhas | G2/G3 | UNKNOWN — catálogo ainda por validar |
 | MEL-FR-003 — navegação e pesquisa | MEL-R-007, MEL-R-008 | Implementação e critérios de aceitação | Testes funcionais de pesquisa e navegação | G2/G3 | UNKNOWN — aplicação não implementada |
 | MEL-FR-004 — limites educativos | MEL-R-002 | Avisos de âmbito e encaminhamento adequado | Revisão de conteúdo e teste de visibilidade/compreensão | G2/G3 | UNKNOWN — aplicação não implementada |
