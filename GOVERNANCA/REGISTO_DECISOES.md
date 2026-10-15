@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — decisões G2 propostas; ratificação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | ba3c662281d6a3351c8fbe8354c6cf76db561de17f2df3f0e5e7383cd5290110 |
+| **SHA-256 (conteúdo canónico)** | e2d155b4296813a9a918a8cc0a7ad9db8cec325cf4ad6d7cc1dc3b64d3c98215 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -55,7 +55,7 @@
 Cada decisão material deve incluir ID único, data, contexto, alternativas relevantes, decisão, estado, responsável, aprovador quando necessário e evidência. Não apagar decisões históricas; registar reversões como novas decisões ligadas à original.
 
 
-| MEL-D011 | 2026-10-15 | O proprietário registou aceitação geral do âmbito educativo proposto e das exclusões clínicas do MVP, conforme comentário na issue #1. | PARCIALMENTE_ACEITE | A aceitação do âmbito não comprova nomeação de responsáveis, revisão clínica qualificada, viabilidade ou aprovação formal de G0/G1. | Issue #1 reaberta; concluir evidências pendentes e registar decisão explícita antes de G2. |
+| MEL-D011 | 2026-10-15 | O proprietário aprovou explicitamente D1–D8, confirmou Carlos Andrade como patrocinador/responsável de produto, aceitou a estimativa preliminar de 31–54 horas e autorizou apenas preparação/avaliação G2. | APROVADO — G0/G1 | Aprovação explícita registada na issue #1; custo monetário permanece UNKNOWN e não há autorização de implementação. | G2 rastreado na issue #2; fechar alojamento/privacidade e obter decisão formal G2 antes de G3. |
 
 | MEL-D012 | 2026-10-15 | O proprietário declarou: “NÃO TEREMOS REVISOR.” | ACEITE | Não será nomeado revisor clínico; o risco de publicar conteúdo clínico próprio sem revisão não é aceite como controlado. | Excluir artigos, resumos, traduções, interpretações e recomendações clínicas próprias; registar âmbito reduzido proposto em docs/REQUISITOS.md e issue #1. |
 | MEL-D013 | 2026-10-15 | Propor MVP limitado a diretório de fontes oficiais, com ligações diretas, metadados e data de verificação; sem dados pessoais de saúde. | PROPOSTO | Mitigação proporcional à decisão de não nomear revisor clínico. Não equivale a validação das páginas externas nem aprovação de gate. | Ratificar âmbito reduzido, rever viabilidade e obter decisão formal G0/G1. |
