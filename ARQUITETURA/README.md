@@ -9,7 +9,7 @@
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | PENDENTE_CALCULO |
+| **SHA-256 (conteúdo canónico)** | 4e52e6517323ebc40d176a676274998eceb39c83d4e638fab783efcca507fe4c |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
