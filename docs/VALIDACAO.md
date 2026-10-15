@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 029f6aec695502ad07b1843b3611f56789f5532c0d08b2164801f84b10d51eaa |
+| **SHA-256 (conteúdo canónico)** | 96df21e5877a5a27248388b131f988bb856ee111f5c2caceab98ba3453245ac9 |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -37,7 +37,7 @@
 | ID | Critério | Evidência obrigatória | Bloqueia lançamento? |
 |---|---|---|---|
 | MEL-GQ-01 | Requisitos críticos rastreados a testes | Matriz e resultados | Sim |
-| MEL-GQ-02 | Conteúdo clínico com fontes e revisão apropriada | Registo editorial, fonte, data e aprovação | Sim |
+| MEL-GQ-02 | Catálogo de fontes oficiais com metadados e links verificados; ausência de conteúdo clínico próprio | Registos de fonte, data de verificação, teste de links e auditoria de texto publicado | Sim; conteúdo clínico próprio fica bloqueado sem revisão apropriada |
 | MEL-GQ-03 | Nenhuma vulnerabilidade crítica/alta conhecida fica sem tratamento aprovado | Relatório de segurança e remediações | Sim |
 | MEL-GQ-04 | Fluxos críticos funcionam e defeitos bloqueadores estão resolvidos | Resultados de testes funcionais | Sim |
 | MEL-GQ-05 | Privacidade e tratamento de dados documentados | Finalidade, base legal, acessos, retenção, direitos e AIPD/DPIA quando aplicável | Sim antes de dados reais |
@@ -52,7 +52,8 @@
 - Testes de validação de entradas e tratamento de erros.
 - Testes de acessibilidade automatizados e manuais.
 - Testes de usabilidade e compreensão dos avisos.
-- Revisão clínica do conteúdo.
+- Testes de links externos, domínios oficiais, metadados, datas e avisos de âmbito.
+- Verificação de que o MVP não contém artigos, resumos, traduções, interpretações ou recomendações clínicas produzidas pelo projeto.
 - Auditoria de dependências e segurança.
 - Testes de backup, restauro, logging, alertas e rollback.
 - Testes de exportação/eliminação se esses módulos forem implementados.
@@ -93,3 +94,8 @@ Criar matriz de rastreabilidade quando os requisitos forem aprovados e executar 
 ## 8. Verificação da issue G0/G1 — 2026-10-15
 
 A issue #1 encontrava-se fechada com checklist integralmente assinalada, embora o corpo ainda declarasse G0/G1 pendente. O único comentário disponível era uma aceitação geral do proprietário. Para manter a integridade dos estados, a issue foi reaberta, a aceitação do âmbito foi registada separadamente e as pendências sem evidência foram desmarcadas. Resultado: aceitação parcial do âmbito; G0/G1 NÃO APROVADO. Esta verificação não altera o resultado de auditoria documental anterior nem demonstra implementação funcional.
+
+
+## 9. Restrição de validação sem revisor clínico — 2026-10-15
+
+O proprietário decidiu que não haverá revisor clínico. Assim, não se executará nem se alegará validação clínica de conteúdo próprio. A proposta de MVP limita-se a organizar ligações para fontes oficiais e metadados; os testes deverão verificar destino/entidade, data de verificação, aviso de fonte externa e ausência de conteúdo clínico editorial próprio. A validade clínica das páginas externas não é certificada pelo MELLITUS. A ratificação de âmbito e G0/G1 continuam pendentes.
