@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — decisões G2 propostas; ratificação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | e2d155b4296813a9a918a8cc0a7ad9db8cec325cf4ad6d7cc1dc3b64d3c98215 |
+| **SHA-256 (conteúdo canónico)** | e66dfd8fa09f711eb49f6c98e6d4006918feb19ff902edd0b8e6ad47b0b55bbf |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
