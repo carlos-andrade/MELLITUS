@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | dbcec0d499ebb82563200ae352c575d74ce3151e98590d6c8d2f17e337e7d145 |
-| **Commit de referência (versão anterior)** | [4559230bea9b13ebc56f546810cfdae6949bcf71](https://github.com/carlos-andrade/MELLITUS/commit/4559230bea9b13ebc56f546810cfdae6949bcf71) |
+| **SHA-256 (conteúdo canónico)** | 23a3e1d0327cadb91bc128492f15dea7ce48fdfbd0799461950374ffd8d1c59b |
+| **Commit de referência (versão anterior)** | [2ec512dcb163945cd29a0f4ebdda1cb70da1ffa0](https://github.com/carlos-andrade/MELLITUS/commit/2ec512dcb163945cd29a0f4ebdda1cb70da1ffa0) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -59,7 +59,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 ## Auditoria da estrutura (2026-10-15)
 
-A árvore `main` foi consultada após as alterações; os nove documentos estruturantes esperados estão presentes e os cabeçalhos possuem título H1 e campos principais. Os hashes SHA-256 canónicos dos nove documentos novos foram calculados segundo a norma e recalculados após gravação; os nove valores coincidem. Esta verificação não cobre automaticamente todos os documentos históricos do repositório. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
+A árvore `main` foi consultada após as alterações: 40 ficheiros no total, dos quais 36 Markdown. A auditoria dos 36 Markdown confirmou título H1, campos obrigatórios, IDs documentais únicos, ausência de hashes pendentes, hashes SHA-256 canónicos coincidentes com recálculo e ausência de destinos inexistentes nos links relativos analisados. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
 
 ## Rastreabilidade F0
 
