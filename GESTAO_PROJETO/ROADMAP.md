@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 669eb7c1ec753159147bc88fba50902094375ac7681f135f5f28ed5ee35876c8 |
-| **Commit de referência (versão anterior)** | [25cc4e1f5a5eb066aa89c0633f167cb0fc1d0862](https://github.com/carlos-andrade/MELLITUS/commit/25cc4e1f5a5eb066aa89c0633f167cb0fc1d0862) |
+| **SHA-256 (conteúdo canónico)** | e3f569aa2f67a69c369ad23d40096fcbc3abb29acaf29002622e3cd49b70e273 |
+| **Commit de referência (versão anterior)** | [f1633c63db4ee46515410c29edc1ea80d96e61b8](https://github.com/carlos-andrade/MELLITUS/commit/f1633c63db4ee46515410c29edc1ea80d96e61b8) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -65,6 +65,10 @@ A issue #1 foi reaberta para corrigir o encerramento prematuro da checklist. O p
 ## Adenda — ausência de revisor clínico — 2026-10-15
 
 ## Adenda — verificação dirigida do catálogo — 2026-10-15
+
+## Adenda — pacote de decisão F0 — 2026-10-15
+
+Foi publicado [PACOTE_DECISAO_F0_G0_G1.md](PACOTE_DECISAO_F0_G0_G1.md), consolidando problema, beneficiário, critérios de sucesso, papéis propostos, estimativa 31–54 horas e cenários ilustrativos de custo. O pacote não aprova gates: as decisões D1–D8 exigem confirmação explícita do proprietário. F0 permanece EM_CURSO; G0/G1 não aprovados; não iniciar implementação funcional.
 
 Foram registadas evidências técnicas de pesquisa para páginas oficiais da DGS, OMS, NICE e ADA. O catálogo foi atualizado com o método/limite de verificação e a integridade SHA-256 canónica foi recalculada e confirmada após a gravação. A pesquisa confirma metadados disponíveis, não valida conteúdo clínico nem comprova teste HTTP direto de todos os URLs. A F1 continua PROPOSTA e a implementação funcional permanece bloqueada até aprovação formal G0/G1 e, depois, G2.
 
