@@ -9,7 +9,7 @@
 | **Fase** | F1 — Investigação clínica e científica |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | PENDENTE_DE_CALCULO |
+| **SHA-256 (conteúdo canónico)** | d5387d2f7657e7f8baede8e2b108a5cf6b51b7a2bb6944920dac8ba732bf50b0 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
