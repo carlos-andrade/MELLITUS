@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | MATRIZ_RASTREABILIDADE |
 | **Fase** | F0 — Governação e requisitos |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 52df9278639d89f11c446d7a3a21dcfdb5fc1ed48a55476a7e1e8db4ebc581c7 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | EM_REVISAO — matriz alinhada com G0/G1 aprovados e G2 pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | 0a81f21ca11ae44e611c9453a2fa6381fea8e842620799fe76511b53f6da965a |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de projeto/produto — a formalizar |
-| **Aprovador** | Pendente de aprovação G0/G1 |
+| **Responsável** | Carlos Andrade — responsável de produto |
+| **Aprovador** | G0/G1 aprovados; G2 pendente |
 | **Origem** | docs/REQUISITOS.md; docs/RISCOS.md; docs/VALIDACAO.md |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [norma de cabeçalho](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CABE%C3%87ALHO/NORMA-CABECALHO-PADRAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -76,3 +76,19 @@ Concluir revisão F0 e obter decisão formal G0/G1. Não iniciar implementação
 ## 7. Restrição sem revisão clínica — 2026-10-15
 
 O proprietário declarou que não haverá revisor clínico. A alternativa de mitigação proposta é limitar o MVP a um catálogo de ligações para páginas de entidades oficiais, sem redação, resumo, tradução, interpretação ou recomendação clínica própria. O catálogo deve registar fonte e data de verificação de cada URL. A ratificação formal do âmbito reduzido continua pendente; qualquer módulo de registos pessoais permanece bloqueado.
+
+
+## 8. Adenda G2 — 2026-10-15
+
+G0/G1 foram aprovados explicitamente na issue #1. G2 está em preparação/avaliação e não está aprovado. Evidências documentais: [pacote G2](../GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md), [modelo de ameaças](AMEACAS.md), [triagem de privacidade](AVALIACAO_PRIVACIDADE_MVP.md) e [ADR-001](ADR/ADR-001-ARQUITETURA-ESTATICA.md).
+
+| Controlo G2 | Evidência | Estado | Efeito |
+|---|---|---|---|
+| Arquitetura estática sem backend/base de dados | docs/ARQUITETURA.md e ADR-001 | PROPOSTO | Pronto para ratificação |
+| Inventário de dados e fluxos | docs/AVALIACAO_PRIVACIDADE_MVP.md | DOCUMENTADO; fornecedor pendente | G2 aberto |
+| Modelo de ameaças | docs/AMEACAS.md | DOCUMENTADO; sem testes técnicos | G2 aberto |
+| Fornecedor, logs, retenção e região | Ficha do fornecedor e termos | UNKNOWN | Bloqueador G2 |
+| Papéis RGPD e necessidade de AIPD | Decisão fundamentada, com revisão competente | PENDENTE | Bloqueador G2 |
+| Ratificação do desenho | Decisão explícita do proprietário | PENDENTE | Gate G2 |
+
+Não iniciar implementação funcional.
