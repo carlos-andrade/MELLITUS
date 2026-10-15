@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 54e5428ed1c9fb13a896d8fbf9eeb317181b8c07921bc01c5fc68ad273885208 |
+| **SHA-256 (conteúdo canónico)** | b446b74ca9d73e4883e7723d3a9a1aa244a48cde627e3aa71c4a8ffbbfb45215 |
 | **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -50,7 +50,7 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 
 ## Próxima ação
 
-A auditoria documental cruzada dos 36 Markdown foi concluída anteriormente. O proprietário declarou que não haverá revisor clínico; por isso, o MVP proposto foi reduzido a catálogo de ligações para fontes oficiais, sem conteúdo clínico próprio. A issue #1 continua aberta: faltam ratificação formal deste âmbito, responsáveis nomeados, evidência de viabilidade e decisão G0/G1. Só depois preparar G2 e selecionar stack.
+A auditoria documental cruzada dos 36 Markdown foi concluída anteriormente. O proprietário declarou que não haverá revisor clínico; por isso, o MVP proposto foi reduzido a catálogo de ligações para fontes oficiais, sem conteúdo clínico próprio. Em 2026-10-15, a verificação do catálogo foi atualizada: SNS 24 responde com aplicação dependente de JavaScript; uma página oficial NICE NG28 foi localizada, mas o acesso automatizado ao portal-raiz devolveu 403. A issue #1 continua aberta; foram corrigidas caixas indevidamente assinaladas como concluídas. Faltam ratificação formal do âmbito, responsáveis nomeados, evidência de viabilidade e decisão G0/G1. Só depois preparar G2 e selecionar stack.
 
 
 ## Adenda de controlo — 2026-10-15
