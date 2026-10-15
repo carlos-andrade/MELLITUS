@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 90b62fc5366fe610a8ad697b90c6876d74799b708184c25f786076be0dd4c679 |
+| **SHA-256 (conteúdo canónico)** | 0761ea8b4106a186d7c35d294b3676ea5e4e1c5c1d30e11ab47126385ce2392c |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
