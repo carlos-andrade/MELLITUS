@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 3616a206fd1cbc733ea7a076d57b56e70e70c89c64d8e5089773db5a6c9edd65 |
-| **Commit de referência (versão anterior)** | N/A — baseline documental inicial |
+| **SHA-256 (conteúdo canónico)** | 4420014b1ea988598de1af9118e4aa9dad66b79e46771860c7699c0b0e1cb561 |
+| **Commit de referência (versão anterior)** | [462c618f239e31d351723ac06d899fc5ca8f4d24](https://github.com/carlos-andrade/MELLITUS/commit/462c618f239e31d351723ac06d899fc5ca8f4d24) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável do projeto — a formalizar |
@@ -80,6 +80,8 @@ Este conjunto documental está em revisão. A sua existência não demonstra apr
 - [Estratégia de qualidade e testes](QUALIDADE_TESTES/README.md)
 - [Operações, implantação e WATCHDOG](OPERACOES/README.md)
 - [Plano de validação](docs/VALIDACAO.md)
+- [Matriz de rastreabilidade](docs/MATRIZ_RASTREABILIDADE.md)
+- [Pendências de decisão G0/G1](https://github.com/carlos-andrade/MELLITUS/issues/1)
 - [Fontes clínicas e política editorial](CLINICA/FONTES_E_REVISAO.md)
 - [Catálogo de fontes clínicas](CLINICA/CATALOGO_FONTES.md)
 - [Prompts do projeto](PROMPT/README.md)
