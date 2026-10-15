@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.1 |
-| **SHA-256 (conteúdo canónico)** | PENDENTE_DE_CALCULO |
+| **SHA-256 (conteúdo canónico)** | 08f208c65880492c22e466b78064a23aa08b9e476221b2e27c7b53bf45e2fbda |
 | **Commit de referência (versão anterior)** | N/A — versão inicial revista |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
