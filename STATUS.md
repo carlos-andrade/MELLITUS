@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 8a3d10dbd3ec1988f72a65b8012c2bb13480f9e07ce0458b3cbadca01c0941e7 |
+| **SHA-256 (conteúdo canónico)** | 02b8373dc09a36b2a55610ee394d253af9d0d50f67c3eeeec0a096698e849ed7 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
