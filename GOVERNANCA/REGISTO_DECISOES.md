@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — decisões G2 propostas; ratificação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | e66dfd8fa09f711eb49f6c98e6d4006918feb19ff902edd0b8e6ad47b0b55bbf |
+| **SHA-256 (conteúdo canónico)** | d331e8d81e9c890341b137d3fbab79fb2f43d68dc54473fde2d9e14384a4b559 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -43,9 +43,9 @@
 
 | ID | Questão | Responsável | Critério de encerramento |
 |---|---|---|---|
-| MEL-P001 | Quem assume formalmente produto/projeto? | Patrocinador/proprietário | Nomeação registada |
-| MEL-P002 | Ratificar formalmente o âmbito reduzido sem revisão clínica: apenas catálogo de fontes oficiais, sem conteúdo clínico próprio. | Responsável de projeto — a formalizar | Requisitos, risco e roadmap alinhados e decisão G0/G1 registada |
-| MEL-P003 | Qual é o MVP aprovado? | Responsável de produto | Requisitos ratificados |
+| MEL-P001 | Quem assume formalmente produto/projeto? | Patrocinador/proprietário | RESOLVIDO — Carlos Andrade confirmado na aprovação D1–D8 da issue #1 |
+| MEL-P002 | Ratificar formalmente o âmbito reduzido sem revisão clínica: apenas catálogo de fontes oficiais, sem conteúdo clínico próprio. | Carlos Andrade | RESOLVIDO — D1–D8 aprovadas; G0/G1 aprovados na issue #1 |
+| MEL-P003 | Qual é o MVP aprovado? | Carlos Andrade | RESOLVIDO — diretório estático de links oficiais e metadados; sem conteúdo clínico próprio ou dados de saúde |
 | MEL-P004 | Qual a estratégia de privacidade e necessidade de AIPD/DPIA? | Privacidade/jurídico | Avaliação documentada |
 | MEL-P005 | Qual a classificação regulatória das funções planeadas? | Conformidade com apoio especializado | Avaliação da finalidade e funcionalidades concretas |
 | MEL-P006 | Como adotar e testar WATCHDOG no MELLITUS? | Técnico/operações | Inventário, critérios, teste de falha e evidência |
@@ -57,8 +57,8 @@ Cada decisão material deve incluir ID único, data, contexto, alternativas rele
 
 | MEL-D011 | 2026-10-15 | O proprietário aprovou explicitamente D1–D8, confirmou Carlos Andrade como patrocinador/responsável de produto, aceitou a estimativa preliminar de 31–54 horas e autorizou apenas preparação/avaliação G2. | APROVADO — G0/G1 | Aprovação explícita registada na issue #1; custo monetário permanece UNKNOWN e não há autorização de implementação. | G2 rastreado na issue #2; fechar alojamento/privacidade e obter decisão formal G2 antes de G3. |
 
-| MEL-D012 | 2026-10-15 | O proprietário declarou: “NÃO TEREMOS REVISOR.” | ACEITE | Não será nomeado revisor clínico; o risco de publicar conteúdo clínico próprio sem revisão não é aceite como controlado. | Excluir artigos, resumos, traduções, interpretações e recomendações clínicas próprias; registar âmbito reduzido proposto em docs/REQUISITOS.md e issue #1. |
-| MEL-D013 | 2026-10-15 | Propor MVP limitado a diretório de fontes oficiais, com ligações diretas, metadados e data de verificação; sem dados pessoais de saúde. | PROPOSTO | Mitigação proporcional à decisão de não nomear revisor clínico. Não equivale a validação das páginas externas nem aprovação de gate. | Ratificar âmbito reduzido, rever viabilidade e obter decisão formal G0/G1. |
+| MEL-D012 | 2026-10-15 | O proprietário declarou: “NÃO TEREMOS REVISOR.” | ACEITE | Não será nomeado revisor clínico; o risco de publicar conteúdo clínico próprio sem revisão não é aceite como controlado. | Excluir artigos, resumos, traduções, interpretações e recomendações clínicas próprias; âmbito reduzido aprovado em docs/REQUISITOS.md e issue #1. |
+| MEL-D013 | 2026-10-15 | MVP limitado a diretório de fontes oficiais, com ligações diretas, metadados e data de verificação; sem dados pessoais de saúde. | APROVADO — G0/G1 | Mitigação proporcional à decisão de não nomear revisor clínico. Não equivale a validação clínica das páginas externas. | Preservar âmbito; alterações exigem nova decisão. G2 continua pendente. |
 
 
 ## Decisões G2 — propostas, não aprovadas
