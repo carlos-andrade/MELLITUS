@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | REGISTO |
 | **Fase** | F0 — Governação e requisitos |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 6a4eee33265a17639d2c16af833013b2bf857e07981aaaf80a5d5edf40ee4cac |
-| **Commit de referência (versão anterior)** | [79a00e786a89a057157370a4eb31e837e838bcc1](https://github.com/carlos-andrade/MELLITUS/commit/79a00e786a89a057157370a4eb31e837e838bcc1) |
+| **Estado** | EM_REVISAO — decisões G2 propostas; ratificação pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | ba3c662281d6a3351c8fbe8354c6cf76db561de17f2df3f0e5e7383cd5290110 |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável de projeto — a formalizar |
-| **Aprovador** | Pendente de aprovação formal |
+| **Responsável** | Carlos Andrade — patrocinador/responsável de produto |
+| **Aprovador** | G0/G1 aprovados; G2 pendente |
 | **Origem** | Registo inicial do briefing e da governação central |
 | **Autoridade superior** | [Constituição GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -59,3 +59,13 @@ Cada decisão material deve incluir ID único, data, contexto, alternativas rele
 
 | MEL-D012 | 2026-10-15 | O proprietário declarou: “NÃO TEREMOS REVISOR.” | ACEITE | Não será nomeado revisor clínico; o risco de publicar conteúdo clínico próprio sem revisão não é aceite como controlado. | Excluir artigos, resumos, traduções, interpretações e recomendações clínicas próprias; registar âmbito reduzido proposto em docs/REQUISITOS.md e issue #1. |
 | MEL-D013 | 2026-10-15 | Propor MVP limitado a diretório de fontes oficiais, com ligações diretas, metadados e data de verificação; sem dados pessoais de saúde. | PROPOSTO | Mitigação proporcional à decisão de não nomear revisor clínico. Não equivale a validação das páginas externas nem aprovação de gate. | Ratificar âmbito reduzido, rever viabilidade e obter decisão formal G0/G1. |
+
+
+## Decisões G2 — propostas, não aprovadas
+
+| ID | Data | Decisão/orientação | Estado | Justificação | Próximo passo/evidência |
+|---|---|---|---|---|---|
+| MEL-D-G2-001 | 2026-10-15 | Recomendar arquitetura estática versionada em Git, sem backend, base de dados, contas ou dados de saúde no MVP. | PROPOSTO | Reduz superfície de ataque e minimiza dados. | Ratificar pacote G2 e ADR-001 após fechar pendências de alojamento/privacidade. |
+| MEL-D-G2-002 | 2026-10-15 | Excluir analytics, trackers, cookies próprios, formulários e recursos remotos de terceiros no desenho-base. | PROPOSTO | Minimização e prevenção de rastreamento desnecessário. | Validar tecnicamente numa build autorizada. |
+| MEL-D-G2-003 | 2026-10-15 | Manter fornecedor/região de alojamento por decidir até avaliar termos, logs, retenção, subprocessadores e custos. | PENDENTE | A escolha afeta privacidade e não há orçamento autorizado. | Avaliação documentada e decisão explícita. |
+| MEL-D-G2-004 | 2026-10-15 | Não concluir ainda se AIPD é necessária; executar triagem face ao tratamento real e regras CNPD/RGPD. | PENDENTE | A decisão depende do fornecedor e dos fluxos efetivos. | Registar decisão fundamentada antes da publicação. |
