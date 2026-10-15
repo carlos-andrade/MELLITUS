@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 6c27faa264dabdf960081652cfdcf4528125ce57b284aca59282f0fb86ebb9c6 |
+| **SHA-256 (conteúdo canónico)** | 7a7a582fc0c6c8bab4cab36eac19572008e46908a428a510498c27655b6f7f44 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -35,7 +35,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 | Fase | Estado | Evidência disponível | Próximo critério |
 |---|---|---|---|
-| F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, aprovar âmbito e registar decisão autorizada |
+| F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, avaliar a estimativa preliminar, aprovar âmbito e registar decisão autorizada |
 | F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação técnica dos oito portais-raiz: 7 PASS, 0 WARN, 1 UNKNOWN; SNS 24 requer JavaScript; raiz NICE sem validação direta; página temática NICE NG28 localizada | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
