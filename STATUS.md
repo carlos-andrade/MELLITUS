@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 197f71caac4db9f2eccc138caf30904cdbcf771faccbcd5f4a415128cb6262c1 |
+| **SHA-256 (conteúdo canónico)** | 0847ab9d3d87d93c2a6f6583777d8428eec298964bb8a8bc004d5c55aaebd4a3 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -71,6 +71,7 @@ O pacote de decisão [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/
 - Triagem de privacidade: [docs/AVALIACAO_PRIVACIDADE_MVP.md](docs/AVALIACAO_PRIVACIDADE_MVP.md).
 - ADR-001: [docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md](docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md).
 - Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), fechada após aprovação explícita D1–D8 em 2026-10-15.
+- Pendências G2: [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2).
 
 ## Documentos estruturantes adicionados nesta atualização
 
@@ -113,7 +114,7 @@ O proprietário declarou explicitamente que não haverá revisor clínico. Para 
 
 A verificação técnica dos portais oficiais foi atualizada em 2026-10-15:
 
-A verificação dirigida de páginas temáticas em 2026-10-15 foi registada em `CLINICA/CATALOGO_FONTES.md`: DGS Perguntas e Respostas, OMS Diabetes, NICE NG28 Initial medicines e ADA About Diabetes. A evidência consultada é de pesquisa/títulos/metadados, não substitui teste HTTP direto de todos os URLs nem revisão clínica. Foram acrescentadas notas de método e verificada a integridade SHA-256 canónica do catálogo após a alteração. F1 permanece PROPOSTO; nenhuma aprovação de gate decorre desta atividade. 7 PASS, 0 WARN e 1 UNKNOWN. Foram localizadas páginas temáticas oficiais da NICE (NG28), DGS (Diabetes e Relatórios/Publicações) e ADA (About Diabetes); os metadados estão registados no catálogo. Isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
+A verificação de páginas temáticas oficiais continua a ser evidência de pesquisa/metadados, não teste HTTP direto de todos os URLs nem revisão clínica. A aprovação formal D1–D8 na issue #1 concluiu F0 e aprovou G0/G1 em 2026-10-15. A issue #2 acompanha as pendências de G2; implementação funcional continua bloqueada.
 
 
 ## Adenda de auditoria G2 — 2026-10-15
