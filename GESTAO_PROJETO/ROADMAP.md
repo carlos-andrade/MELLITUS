@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | ROADMAP |
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
-| **Estado** | G0/G1 APROVADOS; G2 PREPARAÇÃO AUTORIZADA |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 3ce4d1c1c9f3bfaa6c1cb506dc2ac9a64bf13ff96360370a4d167f041ea7b81e |
-| **Commit de referência (versão anterior)** | [f1633c63db4ee46515410c29edc1ea80d96e61b8](https://github.com/carlos-andrade/MELLITUS/commit/f1633c63db4ee46515410c29edc1ea80d96e61b8) |
+| **Estado** | G0/G1 APROVADOS; G2 EM_REVISAO — preparação documental |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | a680ff419c1029645b71e7c98c205ebd3bb1e5b0225181080c31adca208b7d8a |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Carlos Andrade — patrocinador e responsável de produto/projeto |
-| **Aprovador** | Carlos Andrade — aprovação explícita D1–D8 na issue #1 |
+| **Aprovador** | G0/G1 aprovados; G2 pendente |
 | **Origem** | Plano diretor e inventário atual do repositório |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [plano diretor](../docs/PLANO_DIRETOR.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -73,3 +73,8 @@ Foi publicado [PACOTE_DECISAO_F0_G0_G1.md](PACOTE_DECISAO_F0_G0_G1.md), consolid
 Foram registadas evidências técnicas de pesquisa para páginas oficiais da DGS, OMS, NICE e ADA. O catálogo foi atualizado com o método/limite de verificação e a integridade SHA-256 canónica foi recalculada e confirmada após a gravação. A pesquisa confirma metadados disponíveis, não valida conteúdo clínico nem comprova teste HTTP direto de todos os URLs. A F1 continua PROPOSTA e a implementação funcional permanece bloqueada até aprovação formal G0/G1 e, depois, G2.
 
 A fase P1 passa a ser proposta como catálogo de fontes oficiais, com URL e metadados verificados. Artigos clínicos originais, resumos, traduções, interpretações e recomendações ficam fora do MVP porque o proprietário decidiu não nomear revisor clínico. Esta alteração reduz o risco, mas não constitui aprovação de G0/G1 ou G2. Registos pessoais, integrações e funções clínicas continuam bloqueados.
+
+
+## Adenda — preparação G2 — 2026-10-15
+
+Foram publicados [PACOTE_G2_ARQUITETURA_PRIVACIDADE.md](PACOTE_G2_ARQUITETURA_PRIVACIDADE.md), [modelo de ameaças](../docs/AMEACAS.md), [triagem de privacidade](../docs/AVALIACAO_PRIVACIDADE_MVP.md) e [ADR-001](../docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md). Arquitetura estática sem backend/base de dados é a opção recomendada para ratificação. Fornecedor/região, logs, subprocessadores, papéis RGPD e necessidade de AIPD permanecem pendentes. G2 está EM_REVISAO e não aprovado. Implementação, publicação e custos continuam não autorizados.
