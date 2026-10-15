@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — preparado para decisão; G2 não aprovado |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | f28d72e43e0b489630f5538a16089d2ad460fc40316eaca3902f0c04f9e1311e |
+| **SHA-256 (conteúdo canónico)** | 1986eb1c521fdfb5d8f8afd6de024dbe1d60213a35c433553a3cc171d61c3604 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -18,7 +18,7 @@
 | **Origem** | G0/G1 aprovados; autorização limitada para preparação e avaliação de G2 |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [Constituição](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CONSTITUICAO.md); [norma de cabeçalho](https://github.com/carlos-andrade/GOVERNANCA/blob/main/CABE%C3%87ALHO/NORMA-CABECALHO-PADRAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
-| **Rastreabilidade** | [arquitetura](../docs/ARQUITETURA.md); [ameaças](../docs/AMEACAS.md); [triagem de privacidade](../docs/AVALIACAO_PRIVACIDADE_MVP.md); [modelo de dados](../docs/MODELO_DADOS.md); [riscos](../docs/RISCOS.md); [matriz](../docs/MATRIZ_RASTREABILIDADE.md) |
+| **Rastreabilidade** | [issue #2 — pendências G2](https://github.com/carlos-andrade/MELLITUS/issues/2); [arquitetura](../docs/ARQUITETURA.md); [ameaças](../docs/AMEACAS.md); [triagem de privacidade](../docs/AVALIACAO_PRIVACIDADE_MVP.md); [modelo de dados](../docs/MODELO_DADOS.md); [riscos](../docs/RISCOS.md); [matriz](../docs/MATRIZ_RASTREABILIDADE.md) |
 
 ## 1. Decisão de arquitetura proposta
 
@@ -83,7 +83,7 @@ As caixas assinaladas indicam trabalho documental, não execução de testes de 
 
 ## 8. Bloqueios
 
-G2 permanece EM_REVISAO até fechar os pontos pendentes da secção 7. Não iniciar construção funcional, CI/CD de publicação, recolha de dados, compra de serviços ou lançamento. A ausência de revisor clínico mantém excluídos todos os conteúdos clínicos próprios.
+G2 permanece EM_REVISAO até fechar os pontos pendentes da secção 7. A execução das pendências está rastreada na [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2). Não iniciar construção funcional, CI/CD de publicação, recolha de dados, compra de serviços ou lançamento. A ausência de revisor clínico mantém excluídos todos os conteúdos clínicos próprios.
 
 ## 9. Fontes oficiais de privacidade
 
