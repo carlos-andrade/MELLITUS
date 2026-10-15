@@ -25,7 +25,7 @@
 
 ## Barra de progresso
 
-**Implementação funcional do produto comprovada: 0%.** Nenhuma funcionalidade do produto foi verificada nesta fase.
+**Implementação funcional do produto comprovada: 0%.** Nenhuma funcionalidade da aplicação foi verificada. Foi adicionada uma estrutura documental de arquitetura, produto, segurança, testes, operações e roadmap; estes documentos não equivalem à implementação.
 
 `[░░░░░░░░░░] 0% — implementação funcional comprovada`
 
@@ -37,8 +37,8 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 |---|---|---|---|
 | F0 — Governação e requisitos | EM_CURSO | Documentos iniciais; hashes/cabeçalhos por validar | Confirmar responsáveis, aprovar âmbito e registar G0/G1 |
 | F1 — Evidência clínica | PROPOSTO | Política editorial proposta; revisão clínica por fazer | Fontes verificadas e revisor identificado |
-| F2 — Arquitetura e privacidade | PROPOSTO | Ideias preliminares, sem arquitetura aprovada | Modelo de dados, ameaças e avaliação legal/privacidade |
-| F3 — MVP educativo | PROPOSTO | Nenhuma implementação funcional verificada | Aplicação e testes demonstráveis |
+| F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
+| F3 — MVP educativo | PROPOSTO | Especificação funcional documentada em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
 | F5 — Testes e validação | PROPOSTO | Plano de validação documental | Executar testes numa versão concreta |
 | F6 — Piloto e lançamento | BLOQUEADO | Produto ainda não validado | Gates G3/G4/G5 e autorização formal |
@@ -50,10 +50,24 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Revisor clínico qualificado por identificar.
 - Baseline funcional MVP por aprovar.
 - Avaliação legal e de privacidade por realizar.
-- Arquitetura por aprovar e implementar.
+- Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
+- Stack tecnológica ainda não selecionada.
+- Código da aplicação e pipeline CI ainda não verificados.
 - Conformidade final dos cabeçalhos e SHA-256 por verificar.
 - Nenhum gate formal declarado aprovado.
 - Monitorização operacional ativa MELLITUS não demonstrada.
+
+## Documentos estruturantes adicionados
+
+- `ESTRUTURA_PROJETO.md`
+- `GESTAO_PROJETO/ROADMAP.md`
+- `PRODUTO/README.md`
+- `ARQUITETURA/README.md` e `ARQUITETURA/MODELO_DE_DADOS.md`
+- `SEGURANCA/README.md`
+- `QUALIDADE_TESTES/README.md`
+- `OPERACOES/README.md`
+
+Os documentos são propostas em revisão; os campos de hash canónico dos novos documentos ainda precisam de cálculo conforme a norma GOVERNANCA, e a estrutura precisa de auditoria documental.
 
 ## Próximas ações
 
