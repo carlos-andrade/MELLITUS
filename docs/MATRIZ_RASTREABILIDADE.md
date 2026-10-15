@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO — matriz alinhada com G0/G1 aprovados e G2 pendente |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 431a273c606e8e4b1f637071727af1f96bad2f73dc58ebeee6686c969dec438a |
+| **SHA-256 (conteúdo canónico)** | 88e625344ca62095d4bb12a21f3d788ace1aed91d05c0e29238e099c64e8aa4f |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -54,24 +54,24 @@ Ligar os requisitos iniciais a riscos, evidências, testes e gates. A matriz rep
 - Nenhum estado UNKNOWN pode ser promovido a PASS por inferência ou pela existência de documentação.
 - A matriz deve ser atualizada quando um requisito mudar, um teste for executado ou um gate for decidido.
 
-## 4. Pendências para G0/G1
+## 4. Estado dos gates
 
-1. Formalizar patrocinador, responsável de projeto/produto e autoridade de aprovação.
-2. Confirmar beneficiários, problema e resultado mensurável.
-3. Aprovar o MVP educativo e as exclusões clínicas.
-4. Aplicar a decisão de não nomear revisor: ratificar o MVP restrito a catálogo de fontes oficiais, sem conteúdo clínico próprio.
-5. Estimar alternativas, custo, capacidade, riscos e dependências.
-6. Registar a decisão G0/G1 com aprovador e evidência.
-7. Só então preparar o gate G2 para arquitetura e privacidade.
+G0/G1 foram aprovados explicitamente na issue #1 em 2026-10-15. A aprovação não autoriza implementação. G2 está em preparação/avaliação; a decisão depende do pacote G2 e das pendências de alojamento e privacidade.
 
-## 5. Resultado da validação
+## 5. Requisitos de saída G2
 
-Estado inicial: UNKNOWN para implementação e testes; baseline funcional ainda não aprovada. Esta matriz melhora a rastreabilidade, mas não aprova qualquer gate.
+| Controlo | Evidência | Estado | Efeito |
+|---|---|---|---|
+| Arquitetura estática sem backend/base de dados | docs/ARQUITETURA.md e ADR-001 | PROPOSTO | Pronto para ratificação |
+| Inventário de dados e fluxos | docs/AVALIACAO_PRIVACIDADE_MVP.md | DOCUMENTADO; fornecedor pendente | G2 aberto |
+| Modelo de ameaças | docs/AMEACAS.md | DOCUMENTADO; sem testes técnicos | G2 aberto |
+| Fornecedor, logs, retenção e região | Ficha do fornecedor e termos | UNKNOWN — GitHub Pages candidato, não selecionado | Bloqueador G2 |
+| Papéis RGPD e necessidade de AIPD | Decisão fundamentada, com revisão competente | PENDENTE | Bloqueador G2 |
+| Ratificação do desenho | Decisão explícita do proprietário | PENDENTE | Gate G2 |
 
 ## 6. Próxima ação
 
-Concluir revisão F0 e obter decisão formal G0/G1. Não iniciar implementação funcional nem recolha de dados pessoais de saúde antes dos gates aplicáveis.
-
+Fechar a avaliação do fornecedor e privacidade registada na [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2). Não iniciar implementação funcional, publicação ou recolha de dados pessoais de saúde antes da decisão formal de G2 e autorização separada de G3.
 
 ## 7. Restrição sem revisão clínica — 2026-10-15
 
