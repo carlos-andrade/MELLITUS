@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 85151cf4096f98cca9d9a718f4434fc6fd67e8dabb6ba1100465c88aa6a027c5 |
-| **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
+| **SHA-256 (conteúdo canónico)** | 669eb7c1ec753159147bc88fba50902094375ac7681f135f5f28ed5ee35876c8 |
+| **Commit de referência (versão anterior)** | [25cc4e1f5a5eb066aa89c0633f167cb0fc1d0862](https://github.com/carlos-andrade/MELLITUS/commit/25cc4e1f5a5eb066aa89c0633f167cb0fc1d0862) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -63,5 +63,9 @@ A issue #1 foi reaberta para corrigir o encerramento prematuro da checklist. O p
 
 
 ## Adenda — ausência de revisor clínico — 2026-10-15
+
+## Adenda — verificação dirigida do catálogo — 2026-10-15
+
+Foram registadas evidências técnicas de pesquisa para páginas oficiais da DGS, OMS, NICE e ADA. O catálogo foi atualizado com o método/limite de verificação e a integridade SHA-256 canónica foi recalculada e confirmada após a gravação. A pesquisa confirma metadados disponíveis, não valida conteúdo clínico nem comprova teste HTTP direto de todos os URLs. A F1 continua PROPOSTA e a implementação funcional permanece bloqueada até aprovação formal G0/G1 e, depois, G2.
 
 A fase P1 passa a ser proposta como catálogo de fontes oficiais, com URL e metadados verificados. Artigos clínicos originais, resumos, traduções, interpretações e recomendações ficam fora do MVP porque o proprietário decidiu não nomear revisor clínico. Esta alteração reduz o risco, mas não constitui aprovação de G0/G1 ou G2. Registos pessoais, integrações e funções clínicas continuam bloqueados.
