@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — triagem preliminar; não é parecer jurídico nem AIPD concluída |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 2602f59c3e6957a0c1937cefc7ca205c1f20fb82750e127c93deb59b1e9ccfc5 |
+| **SHA-256 (conteúdo canónico)** | ebef7d105faf97a6e0b0b9d8f9784ed220ace9620d475e20126cbebfdfbec165 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
