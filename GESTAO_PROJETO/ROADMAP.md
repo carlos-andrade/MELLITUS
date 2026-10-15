@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 5284fa390be0151e369207097844b5ee903a548463349239f97f74c95dc61591 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **SHA-256 (conteúdo canónico)** | 96a3d69de9e67e21112eccdd96ec0b37ed0516e1cc76964f46d14e5eaa76f89e |
+| **Commit de referência (versão anterior)** | [695153ec62e95369a3a4fd17e711cfb576c1a962](https://github.com/carlos-andrade/MELLITUS/commit/695153ec62e95369a3a4fd17e711cfb576c1a962) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -18,7 +18,7 @@
 | **Origem** | Plano diretor e inventário atual do repositório |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [plano diretor](../docs/PLANO_DIRETOR.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
-| **Rastreabilidade** | STATUS.md; docs/PLANO_DIRETOR.md; docs/REQUISITOS.md |
+| **Rastreabilidade** | STATUS.md; docs/PLANO_DIRETOR.md; docs/REQUISITOS.md; docs/MATRIZ_RASTREABILIDADE.md |
 
 ## Estado factual de partida
 
@@ -50,4 +50,4 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 
 ## Próxima ação
 
-Concluir F0 com validação documental dos cabeçalhos/hashes, formalização de responsáveis, revisão do âmbito e decisão G0/G1; só depois iniciar P2 e P3.
+Concluir F0 com auditoria documental cruzada, formalização de responsáveis, aprovação do âmbito e decisão G0/G1 registada na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1); só depois iniciar P2 e P3.
