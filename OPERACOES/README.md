@@ -9,7 +9,7 @@
 | **Fase** | F4 — Prontidão operacional |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | PENDENTE_CALCULO |
+| **SHA-256 (conteúdo canónico)** | 105c4c3696f359cdcba44419de2dffca8d71137ce9c8256f29970a0d75611590 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
