@@ -69,6 +69,18 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 Os documentos são propostas em revisão; os campos de hash canónico dos novos documentos ainda precisam de cálculo conforme a norma GOVERNANCA, e a estrutura precisa de auditoria documental.
 
+## Documentos estruturantes adicionados
+
+- `ESTRUTURA_PROJETO.md`
+- `GESTAO_PROJETO/ROADMAP.md`
+- `PRODUTO/README.md`
+- `ARQUITETURA/README.md` e `ARQUITETURA/MODELO_DE_DADOS.md`
+- `SEGURANCA/README.md`
+- `QUALIDADE_TESTES/README.md`
+- `OPERACOES/README.md`
+
+Estes documentos são propostas em revisão. Os hashes canónicos dos novos documentos estão pendentes de cálculo segundo a norma GOVERNANCA, pelo que não se declara conformidade integral.
+
 ## Próximas ações
 
 1. Verificar cabeçalhos e calcular SHA-256 canónico segundo a norma.
