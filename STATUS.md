@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 56ff298bba961e34ad64d3a9a115fe86f5316caaa43c6d192ae8fe07fcc50915 |
+| **SHA-256 (conteúdo canónico)** | ea634e83f00aa774a5f5a4422eae26fbf585997001aa2ffd40011d4a298617a0 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -38,7 +38,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 | F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, aprovar âmbito e registar decisão autorizada |
 | F1 — Catálogo de fontes oficiais | PROPOSTO | Catálogo inicial de entidades; verificação por URL ainda por executar | Links oficiais verificados, metadados e aviso de fonte externa; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
-| F3 — MVP educativo | PROPOSTO | Especificação funcional documentada em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
+| F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
 | F5 — Testes e validação | PROPOSTO | Plano de validação documental | Executar testes numa versão concreta |
 | F6 — Piloto e lançamento | BLOQUEADO | Produto ainda não validado | Gates G3/G4/G5 e autorização formal |
@@ -59,7 +59,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 ## Auditoria da estrutura (2026-10-15)
 
-A árvore `main` foi consultada após as alterações: 40 ficheiros no total, dos quais 36 Markdown. A auditoria dos 36 Markdown confirmou título H1, campos obrigatórios, IDs documentais únicos, ausência de hashes pendentes, hashes SHA-256 canónicos coincidentes com recálculo e ausência de destinos inexistentes nos links relativos analisados. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
+A árvore `main` foi comparada com a baseline auditada em `a865fb67477acaf225f90523b5442b8b5a51dbb6`: 41 ficheiros (blobs), dos quais 37 Markdown. Dos 36 Markdown da baseline, 24 permanecem byte-identicamente inalterados; 12 foram atualizados e tiveram o SHA-256 canónico recalculado. O novo documento de decisão também teve o hash recalculado. Os 13 documentos alterados/criados foram verificados individualmente: 13/13 hashes coincidem. A auditoria anterior dos 36 Markdown mantém-se válida para os 24 ficheiros inalterados. A validação de runtime da aplicação não foi executada, pois não há implementação funcional verificada.
 
 ## Rastreabilidade F0
 
@@ -70,6 +70,7 @@ A árvore `main` foi consultada após as alterações: 40 ficheiros no total, do
 
 - `docs/ESTRUTURA_REPOSITORIO.md` — árvore real inicial versus árvore-alvo.
 - `docs/MATRIZ_RASTREABILIDADE.md` — matriz de requisitos, riscos, testes e gates.
+- `GESTAO_PROJETO/DECISAO_ESCOPO_SEM_REVISAO_CLINICA.md` — decisão de não nomear revisor e proposta de redução de âmbito.
 - `docs/ARQUITETURA.md` — arquitetura técnica proposta e fronteiras do MVP.
 - `docs/MODELO_DADOS.md` — entidades editoriais e limites para futuros dados de saúde.
 - `docs/SEGURANCA_PRIVACIDADE.md` — controlos propostos.
@@ -85,9 +86,9 @@ Estes artefactos são propostas documentais. A auditoria dos 36 ficheiros Markdo
 ## Próximas ações
 
 1. Formalizar responsáveis e aprovar âmbito e requisitos MVP.
-2. Concluir a decisão G0/G1 na issue #1.
-3. Nomear revisor clínico qualificado e validar fontes prioritárias.
-4. Só após G0/G1, preparar G2 para stack, arquitetura e privacidade.
+2. Ratificar o âmbito reduzido proposto em [GESTAO_PROJETO/DECISAO_ESCOPO_SEM_REVISAO_CLINICA.md](GESTAO_PROJETO/DECISAO_ESCOPO_SEM_REVISAO_CLINICA.md) e concluir a issue #1.
+3. Formalizar responsáveis e documentar viabilidade/custos/riscos com evidência.
+4. Só após decisão G0/G1, preparar G2 para stack, arquitetura e privacidade.
 
 ## Evidência
 
