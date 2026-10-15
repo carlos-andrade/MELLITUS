@@ -7,10 +7,10 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | ESTADO_PROJETO |
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
-| **Estado** | EM_CURSO — G0/G1 aprovados; G2 autorizado apenas para preparação/avaliação |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | c7361edc921b4e296e69b6712dde88fc38711b209b95e8dd6d1f68de1901a95c |
-| **Commit de referência (versão anterior)** | [f7261a2991e52608b2c9368699d0d26ff42339e4](https://github.com/carlos-andrade/MELLITUS/commit/f7261a2991e52608b2c9368699d0d26ff42339e4) |
+| **Estado** | EM_CURSO — G0/G1 aprovados; G2 documentalmente preparado, aprovação pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | e001172af919ff8c2c7cce70bf151217883ebc0d28a83c50b3b3c20b17652ce2 |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Carlos Andrade — patrocinador e responsável de produto/projeto |
@@ -37,7 +37,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 |---|---|---|---|
 | F0 — Governação e requisitos | CONCLUÍDA (D1–D8 aprovadas) | Pacote de decisão v1.0.0 e comentário explícito do proprietário na issue #1 | Manter baseline e rastreabilidade; alterações de âmbito exigem nova decisão |
 | F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação técnica dos oito portais-raiz: 7 PASS, 0 WARN, 1 UNKNOWN; SNS 24 requer JavaScript; raiz NICE sem validação direta; página temática NICE NG28 localizada | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
-| F2 — Arquitetura e privacidade | PREPARAÇÃO AUTORIZADA — G2 ainda não aprovado | Autorização limitada na issue #1; documentação proposta em ARQUITETURA/ e SEGURANCA/ | Preparar avaliação de stack, ameaças e privacidade; obter aprovação formal G2 antes de implementar |
+| F2 — Arquitetura e privacidade | EM_REVISAO — pacote G2 preparado; aprovação pendente | Pacote G2, ADR-001, modelo de ameaças e triagem de privacidade publicados | Fechar avaliação de alojamento/logs, papéis RGPD e necessidade de AIPD; obter decisão formal G2 |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
 | F5 — Testes e validação | PROPOSTO | Plano de validação documental | Executar testes numa versão concreta |
@@ -49,8 +49,8 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 - Responsável de projeto/produto formalizado: Carlos Andrade (aprovação explícita na issue #1).
 - O proprietário declarou que não haverá revisor clínico; conteúdo clínico próprio, resumos, traduções, interpretações e recomendações ficam excluídos do MVP proposto.
 - Baseline do MVP estático aprovada em D1–D8; alterações de âmbito exigem nova decisão.
-- Avaliação de arquitetura, privacidade e questões legais continua por realizar; G2 ainda não aprovado.
-- Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
+- G2 documentalmente preparado; fornecedor/região, logs, papéis RGPD e decisão sobre AIPD continuam UNKNOWN/PENDENTE.
+- Arquitetura estática proposta; aprovação G2, implementação e publicação pendentes.
 - Stack tecnológica ainda não selecionada.
 - Código da aplicação e pipeline CI ainda não verificados.
 - Auditoria cruzada dos 36 Markdown concluída anteriormente. Nesta atualização, os hashes canónicos dos quatro documentos alterados foram recalculados e verificados individualmente; os quatro coincidem com os valores declarados nos cabeçalhos.
@@ -61,11 +61,15 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 A árvore `main` foi comparada com a baseline auditada em `a865fb67477acaf225f90523b5442b8b5a51dbb6`: 41 ficheiros (blobs), dos quais 37 Markdown. Dos 36 Markdown da baseline, 24 permanecem byte-identicamente inalterados; 12 foram atualizados e tiveram o SHA-256 canónico recalculado. O novo documento de decisão também teve o hash recalculado. Os 13 documentos alterados/criados foram verificados individualmente: 13/13 hashes coincidem. A auditoria anterior dos 36 Markdown mantém-se válida para os 24 ficheiros inalterados. A validação de runtime da aplicação não foi executada, pois não há implementação funcional verificada.
 
-## Rastreabilidade F0
+## Rastreabilidade F0/G2
 
 O pacote de decisão [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md), versão 1.0.0, foi aprovado explicitamente pelo proprietário na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1#issuecomment-6197870350). D1–D8 aprovadas; G0/G1 aprovados; G2 autorizado apenas para preparação e avaliação. Custo monetário UNKNOWN e sem orçamento autorizado. Implementação funcional permanece em 0% e bloqueada.
 
 - Matriz: [docs/MATRIZ_RASTREABILIDADE.md](docs/MATRIZ_RASTREABILIDADE.md).
+- Pacote G2: [GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md](GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md).
+- Modelo de ameaças: [docs/AMEACAS.md](docs/AMEACAS.md).
+- Triagem de privacidade: [docs/AVALIACAO_PRIVACIDADE_MVP.md](docs/AVALIACAO_PRIVACIDADE_MVP.md).
+- ADR-001: [docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md](docs/ADR/ADR-001-ARQUITETURA-ESTATICA.md).
 - Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), aberta; não equivale a aprovação.
 
 ## Documentos estruturantes adicionados nesta atualização
@@ -110,3 +114,8 @@ O proprietário declarou explicitamente que não haverá revisor clínico. Para 
 A verificação técnica dos portais oficiais foi atualizada em 2026-10-15:
 
 A verificação dirigida de páginas temáticas em 2026-10-15 foi registada em `CLINICA/CATALOGO_FONTES.md`: DGS Perguntas e Respostas, OMS Diabetes, NICE NG28 Initial medicines e ADA About Diabetes. A evidência consultada é de pesquisa/títulos/metadados, não substitui teste HTTP direto de todos os URLs nem revisão clínica. Foram acrescentadas notas de método e verificada a integridade SHA-256 canónica do catálogo após a alteração. F1 permanece PROPOSTO; nenhuma aprovação de gate decorre desta atividade. 7 PASS, 0 WARN e 1 UNKNOWN. Foram localizadas páginas temáticas oficiais da NICE (NG28), DGS (Diabetes e Relatórios/Publicações) e ADA (About Diabetes); os metadados estão registados no catálogo. Isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
+
+
+## Adenda de auditoria G2 — 2026-10-15
+
+Preparação documental concluída: pacote de decisão, ADR-001, modelo de ameaças e triagem de privacidade publicados; arquitetura, modelo de dados, riscos e matriz alinhados ao MVP estático. G2 permanece EM_REVISAO. Alojamento/região, tratamento de logs, papéis RGPD e determinação formal sobre AIPD continuam UNKNOWN/PENDENTE. Implementação funcional comprovada: 0%; sem autorização para construir, publicar, recolher dados ou assumir custos.
