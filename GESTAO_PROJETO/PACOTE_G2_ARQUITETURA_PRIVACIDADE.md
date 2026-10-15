@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — preparado para decisão; G2 não aprovado |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 1986eb1c521fdfb5d8f8afd6de024dbe1d60213a35c433553a3cc171d61c3604 |
+| **SHA-256 (conteúdo canónico)** | d5050c1891a6287cbb63ea3256729315ee50b388302a2e3eb33cb1bcff149f7e |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -96,3 +96,10 @@ Estas fontes suportam a triagem, não constituem parecer jurídico para o projet
 ## 10. Resultado
 
 **G2 preparado documentalmente, mas não aprovado.** Permanecem pendentes a avaliação do alojamento, a análise especializada de privacidade aplicável e a decisão formal do gate. A implementação funcional continua bloqueada.
+
+
+## 11. Avaliação do candidato de alojamento — GitHub Pages
+
+A documentação oficial confirma que GitHub Pages serve ficheiros HTML/CSS/JavaScript estáticos a partir de um repositório e está disponível em repositórios públicos com GitHub Free ([o que é GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)). A documentação também declara expressamente que, quando alguém visita um site GitHub Pages, o endereço IP é registado e armazenado para fins de segurança. Por isso, GitHub Pages é um **candidato tecnicamente compatível, não selecionado nem autorizado para publicação**.
+
+A candidatura não fecha a avaliação de privacidade: continuam por determinar os papéis aplicáveis, a informação a prestar, a retenção concreta e a análise de transferências/termos aplicáveis. A utilização de domínio github.io evita assumir a compra de domínio, mas não é uma decisão de lançamento nem uma garantia de custo total zero. Ver [issue #2](https://github.com/carlos-andrade/MELLITUS/issues/2).
