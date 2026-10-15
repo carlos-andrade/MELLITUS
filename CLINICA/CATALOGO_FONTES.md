@@ -1,4 +1,4 @@
-# Catálogo de fontes clínicas — MELLITUS
+# Catálogo de fontes oficiais — MELLITUS
 
 | Campo | Valor |
 |---|---|
@@ -6,26 +6,26 @@
 | **Projeto** | MELLITUS |
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | CATALOGO_FONTES |
-| **Fase** | F1 — Investigação clínica e científica |
+| **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | c5eca391561663c505e054cd516b0ad10b2455db7bba878cd56b2aa6b3c9f98a |
+| **SHA-256 (conteúdo canónico)** | 92f0e5680526bc1b6a5db5fab46e8e391a16c59d0f0375c9e153c4108d27d72c |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Editor clínico — a formalizar |
-| **Aprovador** | Pendente de revisão clínica |
+| **Responsável** | Responsável pelo catálogo — a formalizar |
+| **Aprovador** | Pendente de ratificação G0/G1 |
 | **Origem** | Plano diretor e política editorial |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [política editorial](FONTES_E_REVISAO.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
 
 ## Finalidade
 
-Registar fontes que sustentam conteúdo público de saúde. Esta lista orienta pesquisa; não significa que as fontes tenham sido consultadas nesta versão nem valida artigos clínicos.
+Organizar ligações diretas para páginas de entidades oficiais. O catálogo não certifica validade clínica, atualidade científica ou adequação individual do conteúdo externo.
 
-## Fontes prioritárias a consultar
+## Entidades candidatas
 
-| Entidade | Portal oficial | Aplicação |
+| Entidade | Portal oficial | Aplicação pretendida |
 |---|---|---|
 | Direção-Geral da Saúde (DGS) | https://www.dgs.pt/ | Recomendações nacionais e normas |
 | SNS 24 | https://www.sns24.gov.pt/ | Informação pública de saúde em Portugal |
@@ -37,14 +37,14 @@ Registar fontes que sustentam conteúdo público de saúde. Esta lista orienta p
 | European Association for the Study of Diabetes (EASD) | https://www.easd.org/ | Diretrizes e consensos |
 | National Institute for Health and Care Excellence (NICE) | https://www.nice.org.uk/ | Diretrizes e avaliação de tecnologias |
 
-## Registo por fonte
+## Metadados mínimos por registo
 
-Guardar entidade, título, URL, data/versão, data de consulta, jurisdição/idioma, afirmações sustentadas, limitações, revisor e próxima revisão.
+Guardar ID estável, entidade, título, URL, domínio, tema de navegação, jurisdição/idioma, data de verificação, estado técnico, aviso de fonte externa e histórico de alterações. Não incluir alegações clínicas próprias nem campo de aprovação por revisor clínico.
 
-## Medicamentos
+## Limites
 
-Não publicar alegações de autorização, disponibilidade, indicação, contraindicação ou segurança sem verificação atual em autoridade reguladora e documentação oficial. Distinguir autorização, disponibilidade, diretriz e decisão clínica individual.
+O proprietário declarou que não haverá revisor clínico. Ficam excluídos do MVP artigos, resumos, traduções, interpretações e recomendações clínicas próprias, bem como dados pessoais de saúde. A presença de uma URL nesta lista não significa que uma página específica tenha sido verificada. Links ativos não comprovam atualidade ou correção clínica.
 
 ## Próxima ação
 
-Consultar fontes para os primeiros temas e preencher registos concretos; não marcar investigação como concluída sem evidência.
+Ratificar o âmbito reduzido em G0/G1 e, depois, verificar URLs individuais com evidência datada. Não declarar F1 concluída apenas por existir esta lista.
