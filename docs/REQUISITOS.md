@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 52a9ee0caf16436cf3a4f640611fcdc4d740473600674fadfb92f10bde6a2595 |
+| **SHA-256 (conteúdo canónico)** | d8356f3e1e7891725c075f6a21c23de5823d134d70bf608a329b3a33c04311a2 |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -21,7 +21,7 @@
 | **Rastreabilidade** | docs/PLANO_DIRETOR.md; docs/VALIDACAO.md; docs/RISCOS.md |
 | **Escopo** | Requisitos funcionais, não funcionais e restrições |
 | **Objetivo** | Construir uma baseline testável para o MVP e fases futuras |
-| **Dependências** | Revisão clínica, arquitetura e avaliação de privacidade |
+| **Dependências** | Verificação de links/fontes, arquitetura e avaliação de privacidade aplicável |
 
 ## 1. Regras
 
@@ -31,12 +31,12 @@ Cada requisito recebe ID único. O estado inicial é proposta, não requisito ap
 
 | ID | Requisito | Prioridade | Critério de aceitação | Estado |
 |---|---|---|---|---|
-| MEL-FR-001 | Apresentar conteúdo educativo sobre diabetes em linguagem adequada ao público geral. | Alta | Conteúdo piloto revisto e aceite por revisor qualificado. | PROPOSTO |
-| MEL-FR-002 | Mostrar fontes verificáveis e data de revisão em cada artigo publicado. | Alta | Artigos piloto com referências e metadados completos. | PROPOSTO |
+| MEL-FR-001 | Disponibilizar catálogo navegável de ligações para páginas oficiais sobre diabetes, sem produzir conteúdo clínico próprio. | Alta | Cada registo aponta para página de entidade oficial e identifica a fonte externa. | PROPOSTO — âmbito reduzido pendente de ratificação |
+| MEL-FR-002 | Apresentar entidade, título, URL, jurisdição/idioma e data de verificação de cada ligação externa. | Alta | Metadados preenchidos e ligação testada, com data registada. | PROPOSTO |
 | MEL-FR-003 | Permitir navegação por temas e pesquisa de conteúdo. | Alta | Testes funcionais de navegação e pesquisa aprovados. | PROPOSTO |
-| MEL-FR-004 | Mostrar limites da plataforma e aviso de que não substitui aconselhamento clínico. | Alta | Aviso visível nos pontos relevantes e verificado por teste. | PROPOSTO |
+| MEL-FR-004 | Explicar que o MELLITUS é um diretório de fontes externas e não valida nem substitui aconselhamento clínico. | Alta | Aviso visível na página inicial e junto dos resultados; teste de presença aprovado. | PROPOSTO |
 | MEL-FR-005 | Permitir consulta em ecrãs móveis e desktop. | Alta | Testes nos ecrãs suportados sem bloqueios críticos. | PROPOSTO |
-| MEL-FR-006 | Permitir correção, atualização, despublicação e revisão editorial rastreáveis. | Alta | Fluxo demonstrado com versões e auditoria. | PROPOSTO |
+| MEL-FR-006 | Permitir manutenção, correção e remoção rastreável de registos de fontes e ligações. | Alta | Alterações de registos com histórico, autor e data. | PROPOSTO |
 
 ## 3. Requisitos de acompanhamento — fase futura
 
@@ -57,7 +57,7 @@ Cada requisito recebe ID único. O estado inicial é proposta, não requisito ap
 | MEL-NFR-004 | Acessibilidade | Avaliar WCAG 2.2 AA como objetivo de desenho, sujeito à aplicabilidade legal. | Auditoria automática e manual documentadas. | PROPOSTO |
 | MEL-NFR-005 | Resiliência | Definir backups, recuperação e rollback antes de produção. | Recuperação testada e resultados registados. | PROPOSTO |
 | MEL-NFR-006 | Observabilidade | Métricas, logs e alertas proporcionais ao risco. | Cenários de falha testados; ausência de monitorização não conta como sucesso. | PROPOSTO |
-| MEL-NFR-007 | Integridade científica | Ligar conteúdo clínico a fontes e revisão datada. | Auditoria de amostra sem afirmações críticas sem suporte. | PROPOSTO |
+| MEL-NFR-007 | Proveniência de fontes | Distinguir informação do catálogo de conteúdo externo; não produzir afirmações clínicas próprias. | Auditoria confirma fonte identificada, link e ausência de texto clínico editorial próprio. | PROPOSTO |
 | MEL-NFR-008 | Portabilidade | Permitir exportação de dados pessoais quando aplicável. | Formato e limitações documentados. | PROPOSTO |
 
 ## 5. Exclusões explícitas
@@ -66,8 +66,14 @@ Cada requisito recebe ID único. O estado inicial é proposta, não requisito ap
 - Recomendação autónoma de doses ou ajuste de medicação.
 - Afirmar que uma medição isolada confirma ou exclui doença.
 - Uso de dados reais de saúde em testes sem base legal e controlos apropriados.
-- Publicação de conteúdo clínico sem fonte e revisão necessárias.
+- Redação, resumo, tradução, interpretação ou recomendação clínica própria enquanto não existir revisor clínico.
+- Reprodução extensa de conteúdo de terceiros; o MVP deve ligar diretamente às páginas de origem.
 
 ## 6. Rastreabilidade e próxima ação
 
 Ligar cada requisito a riscos, decisões, implementação e testes. Não reutilizar IDs eliminados. Após triagem G0/G1, aprovar o âmbito do MVP e converter os requisitos selecionados em casos de teste. Até lá, os requisitos ficam em proposta ou revisão.
+
+
+## 7. Restrição de escopo decorrente da decisão de não nomear revisor clínico — 2026-10-15
+
+O proprietário declarou que não haverá revisor clínico. Como consequência de segurança, a baseline proposta para o MVP limita-se a um diretório de páginas de entidades oficiais, com ligações diretas e metadados de origem. O projeto não redigirá, resumirá, traduzirá, interpretará nem recomendará conteúdo clínico. A inclusão no catálogo não equivale a validação clínica da página externa. Cada ligação deverá ter data de verificação. Esta alteração de âmbito permanece proposta até ratificação formal G0/G1. Os requisitos de registos pessoais continuam bloqueados e fora do MVP.
