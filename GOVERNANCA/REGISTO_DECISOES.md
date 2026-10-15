@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 5d08c8bddbc0fb88be0e5e686280025081f13378dd1aa87be5664d3fdbee0445 |
+| **SHA-256 (conteúdo canónico)** | 932415504d649db2efe9e2260161901e064f0c1c6f0854f3e4eb41d8dc9dbbcc |
 | **Commit de referência (versão anterior)** | [79a00e786a89a057157370a4eb31e837e838bcc1](https://github.com/carlos-andrade/MELLITUS/commit/79a00e786a89a057157370a4eb31e837e838bcc1) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -53,3 +53,6 @@
 ## Regra de atualização
 
 Cada decisão material deve incluir ID único, data, contexto, alternativas relevantes, decisão, estado, responsável, aprovador quando necessário e evidência. Não apagar decisões históricas; registar reversões como novas decisões ligadas à original.
+
+
+| MEL-D011 | 2026-10-15 | O proprietário registou aceitação geral do âmbito educativo proposto e das exclusões clínicas do MVP, conforme comentário na issue #1. | PARCIALMENTE_ACEITE | A aceitação do âmbito não comprova nomeação de responsáveis, revisão clínica qualificada, viabilidade ou aprovação formal de G0/G1. | Issue #1 reaberta; concluir evidências pendentes e registar decisão explícita antes de G2. |
