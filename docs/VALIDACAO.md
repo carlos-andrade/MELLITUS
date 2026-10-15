@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 24ddf385b4b414e0b34e6bb5a6e35f2d6cf09fdb339b5999d24073481bedc4ce |
+| **SHA-256 (conteúdo canónico)** | 029f6aec695502ad07b1843b3611f56789f5532c0d08b2164801f84b10d51eaa |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -86,5 +86,10 @@ Criar matriz de rastreabilidade quando os requisitos forem aprovados e executar 
 - Não foram encontrados campos de hash pendentes nem destinos inexistentes nos links relativos analisados.
 - Os IDs documentais examinados são únicos.
 - Matriz de rastreabilidade criada: docs/MATRIZ_RASTREABILIDADE.md.
-- Issue de decisão G0/G1 aberta: https://github.com/carlos-andrade/MELLITUS/issues/1. A issue não constitui aprovação.
+- Issue de decisão G0/G1 reaberta após verificação: https://github.com/carlos-andrade/MELLITUS/issues/1. O comentário do proprietário regista aceitação geral, mas não supre evidência de responsáveis, revisão clínica qualificada, viabilidade ou decisão formal do gate.
 - Nenhum gate G0–G6 é declarado aprovado; a implementação funcional permanece não demonstrada.
+
+
+## 8. Verificação da issue G0/G1 — 2026-10-15
+
+A issue #1 encontrava-se fechada com checklist integralmente assinalada, embora o corpo ainda declarasse G0/G1 pendente. O único comentário disponível era uma aceitação geral do proprietário. Para manter a integridade dos estados, a issue foi reaberta, a aceitação do âmbito foi registada separadamente e as pendências sem evidência foram desmarcadas. Resultado: aceitação parcial do âmbito; G0/G1 NÃO APROVADO. Esta verificação não altera o resultado de auditoria documental anterior nem demonstra implementação funcional.
