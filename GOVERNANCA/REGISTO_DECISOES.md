@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 932415504d649db2efe9e2260161901e064f0c1c6f0854f3e4eb41d8dc9dbbcc |
+| **SHA-256 (conteúdo canónico)** | 6a4eee33265a17639d2c16af833013b2bf857e07981aaaf80a5d5edf40ee4cac |
 | **Commit de referência (versão anterior)** | [79a00e786a89a057157370a4eb31e837e838bcc1](https://github.com/carlos-andrade/MELLITUS/commit/79a00e786a89a057157370a4eb31e837e838bcc1) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -44,7 +44,7 @@
 | ID | Questão | Responsável | Critério de encerramento |
 |---|---|---|---|
 | MEL-P001 | Quem assume formalmente produto/projeto? | Patrocinador/proprietário | Nomeação registada |
-| MEL-P002 | Quem fará a revisão clínica? | Responsável de projeto | Revisor qualificado e fluxo identificados |
+| MEL-P002 | Ratificar formalmente o âmbito reduzido sem revisão clínica: apenas catálogo de fontes oficiais, sem conteúdo clínico próprio. | Responsável de projeto — a formalizar | Requisitos, risco e roadmap alinhados e decisão G0/G1 registada |
 | MEL-P003 | Qual é o MVP aprovado? | Responsável de produto | Requisitos ratificados |
 | MEL-P004 | Qual a estratégia de privacidade e necessidade de AIPD/DPIA? | Privacidade/jurídico | Avaliação documentada |
 | MEL-P005 | Qual a classificação regulatória das funções planeadas? | Conformidade com apoio especializado | Avaliação da finalidade e funcionalidades concretas |
@@ -56,3 +56,6 @@ Cada decisão material deve incluir ID único, data, contexto, alternativas rele
 
 
 | MEL-D011 | 2026-10-15 | O proprietário registou aceitação geral do âmbito educativo proposto e das exclusões clínicas do MVP, conforme comentário na issue #1. | PARCIALMENTE_ACEITE | A aceitação do âmbito não comprova nomeação de responsáveis, revisão clínica qualificada, viabilidade ou aprovação formal de G0/G1. | Issue #1 reaberta; concluir evidências pendentes e registar decisão explícita antes de G2. |
+
+| MEL-D012 | 2026-10-15 | O proprietário declarou: “NÃO TEREMOS REVISOR.” | ACEITE | Não será nomeado revisor clínico; o risco de publicar conteúdo clínico próprio sem revisão não é aceite como controlado. | Excluir artigos, resumos, traduções, interpretações e recomendações clínicas próprias; registar âmbito reduzido proposto em docs/REQUISITOS.md e issue #1. |
+| MEL-D013 | 2026-10-15 | Propor MVP limitado a diretório de fontes oficiais, com ligações diretas, metadados e data de verificação; sem dados pessoais de saúde. | PROPOSTO | Mitigação proporcional à decisão de não nomear revisor clínico. Não equivale a validação das páginas externas nem aprovação de gate. | Ratificar âmbito reduzido, rever viabilidade e obter decisão formal G0/G1. |
