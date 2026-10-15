@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | fa4dada48acb3a4a88149aff1c828152c81bf1f2a93abe419e5eb61db26ff4bb |
+| **SHA-256 (conteúdo canónico)** | 931d989e31527210510f61473c3d88151b24e60c59dcf893d3c96a9ff747bcc7 |
 | **Commit de referência (versão anterior)** | [462c618f239e31d351723ac06d899fc5ca8f4d24](https://github.com/carlos-andrade/MELLITUS/commit/462c618f239e31d351723ac06d899fc5ca8f4d24) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -84,6 +84,7 @@ Este conjunto documental está em revisão. A sua existência não demonstra apr
 - [Plano de validação](docs/VALIDACAO.md)
 - [Matriz de rastreabilidade](docs/MATRIZ_RASTREABILIDADE.md)
 - [Pendências de decisão G0/G1](https://github.com/carlos-andrade/MELLITUS/issues/1)
+- [Decisão de âmbito sem revisor clínico — proposta pendente de ratificação](GESTAO_PROJETO/DECISAO_ESCOPO_SEM_REVISAO_CLINICA.md)
 - [Fontes clínicas e política editorial](CLINICA/FONTES_E_REVISAO.md)
 - [Catálogo de fontes clínicas](CLINICA/CATALOGO_FONTES.md)
 - [Prompts do projeto](PROMPT/README.md)
