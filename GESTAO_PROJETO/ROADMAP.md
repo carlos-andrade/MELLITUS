@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 2023260e65766a92ad09064561e3463a72a272e828904a928bb423d23e6965a2 |
+| **SHA-256 (conteúdo canónico)** | 64dede56ecd6d40d8dd1986b683e8b422719b24c7b2d99506fd9e15516b40001 |
 | **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -51,3 +51,8 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 ## Próxima ação
 
 A auditoria documental cruzada dos 36 Markdown está concluída. Próxima ação: formalizar responsáveis, aprovar âmbito e requisitos MVP e concluir G0/G1 na [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1); só depois iniciar G2 e a seleção da stack.
+
+
+## Adenda de controlo — 2026-10-15
+
+A issue #1 foi reaberta para corrigir o encerramento prematuro da checklist. O proprietário aceitou em princípio o âmbito educativo e as exclusões clínicas, mas a aprovação G0/G1 permanece pendente de evidência explícita para as restantes entradas. Não iniciar implementação funcional nem recolha de dados de saúde por inferência.
