@@ -8,8 +8,8 @@
 | **Tipo documental** | PLANO_CONTROLOS |
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO — controlos propostos; avaliação do alojamento pendente |
-| **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | 1c38f15d0e38d2bba6ca38fbdfd52e30ecd5fa7c5d35265a99981cf5a97a6dac |
+| **Versão** | 1.2.0 |
+| **SHA-256 (conteúdo canónico)** | 3476dd9827c66cf950ee4eebd95886cb142f9520f7158bef249519f6f4b39d43 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -34,15 +34,24 @@ Plano proposto; não é auditoria concluída, certificação, avaliação juríd
 - Nunca copiar dados de produção para teste.
 - Produzir releases rastreáveis com changelog e rollback.
 
-## 3. Controlos de aplicação
+## 3. Controlos aplicáveis ao MVP estático
 
-HTTPS e sessões/cookies seguros; validação server-side; codificação contextual de saída; consultas parametrizadas; CSRF para operações mutáveis; autorização server-side por pedido; rate limiting conforme risco; CSP/cabeçalhos de segurança; erros públicos sem stack trace; uploads desativados por defeito; logs minimizados, protegidos e com retenção definida.
+- Não introduzir backend, autenticação, sessões, SQL, formulários ou uploads.
+- Não carregar scripts, fontes, CDNs, analytics, pixels ou embeds remotos de terceiros.
+- Validar esquema do catálogo, HTTPS e lista permitida de domínios antes de qualquer publicação.
+- Usar HTTPS e cabeçalhos de segurança/CSP se suportados pelo alojamento selecionado.
+- Não guardar segredos no repositório; limitar permissões de escrita e proteger credenciais de manutenção.
+- Minimizar erros e logs; avaliar o que o fornecedor regista e durante quanto tempo.
+- Tornar o aviso de fonte externa visível e testar a sua presença.
+- Todos os controlos são PROPOSTOS; não declarar ativos sem teste e evidência.
 
-## 4. Privacidade
+## 4. Privacidade e dados
 
-Antes de recolher dados pessoais, documentar responsável pelo tratamento, finalidade, base legal, transparência, direitos, subprocessadores, transferências, minimização, acessos, retenção, eliminação e incidentes. Avaliar necessidade de AIPD/DPIA e verificar obrigações RGPD/Portugal/UE com assessoria competente. Não alegar conformidade sem avaliação.
+O MVP não recolhe dados de saúde, contas, perfis, formulários, cookies próprios ou analytics. A pesquisa, se existir, é local. O alojamento pode tratar IP, user-agent, timestamp ou logs técnicos; fornecedor, região, retenção, subprocessadores, transferências e papéis RGPD continuam desconhecidos.
 
-## 5. Conteúdo clínico e IA
+A decisão sobre a necessidade de AIPD/DPIA não está concluída. Antes da publicação, analisar o tratamento real, as condições do fornecedor, o artigo 35.º do RGPD e a lista aplicável da CNPD, e registar a decisão fundamentada. Não alegar conformidade legal sem avaliação competente.
+
+Ver [AVALIACAO_PRIVACIDADE_MVP.md](AVALIACAO_PRIVACIDADE_MVP.md).## 5. Conteúdo clínico e IA
 
 Fontes rastreáveis e revisão humana antes da publicação. Não publicar automaticamente recomendações terapêuticas individualizadas. Não inserir dados identificáveis em ferramentas externas sem avaliação e autorização. Versionar prompts/testes e encaminhar respostas perigosas para revisão. Reavaliar finalidade e regulação antes de capacidades que influenciem decisões clínicas.
 
