@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | b446b74ca9d73e4883e7723d3a9a1aa244a48cde627e3aa71c4a8ffbbfb45215 |
+| **SHA-256 (conteúdo canónico)** | 85151cf4096f98cca9d9a718f4434fc6fd67e8dabb6ba1100465c88aa6a027c5 |
 | **Commit de referência (versão anterior)** | [fe362c320b4f167d829503d5f27b2c288803ab34](https://github.com/carlos-andrade/MELLITUS/commit/fe362c320b4f167d829503d5f27b2c288803ab34) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -24,11 +24,15 @@
 
 Verificação da branch `main` em 2026-10-15: repositório contém documentação base e prompt de especialista em diabetes. Não foi verificado código da aplicação nem testes funcionais executados. Implementação funcional comprovada: 0%.
 
+## Evidência de viabilidade
+
+A estimativa preliminar está em [ESTIMATIVA_VIABILIDADE_MVP.md](ESTIMATIVA_VIABILIDADE_MVP.md). Intervalo de esforço indicativo: 31–54 horas para o âmbito estático mínimo, sujeito a validação. Custo monetário, responsáveis e prazo permanecem por formalizar. O documento não aprova G0/G1 nem autoriza implementação.
+
 ## Plano por fases
 
 | Fase | Entregáveis | Critérios de saída | Estado atual |
 |---|---|---|---|
-| P0 — Baseline e governação | Inventário, requisitos, responsáveis, decisões, cabeçalhos/integridade | G0/G1 formalmente aceites | EM_CURSO |
+| P0 — Baseline e governação | Inventário, requisitos, responsáveis, decisões, estimativa de viabilidade, cabeçalhos/integridade | G0/G1 formalmente aceites | EM_CURSO |
 | P1 — Catálogo de fontes oficiais | Catálogo de fontes oficiais, links verificados, metadados e aviso de fonte externa; sem artigos/resumos próprios | Ligações testadas e critérios do catálogo aprovados; âmbito ratificado em G0/G1 | PROPOSTO |
 | P2 — Arquitetura e proteção | Stack, modelo de dados, ameaça, privacidade, arquitetura | G2 aceite por decisores competentes | PROPOSTO |
 | P3 — Fundação técnica | Estrutura de código, configuração, testes básicos, CI | Build e testes reproduzíveis | PROPOSTO |
@@ -50,7 +54,7 @@ Verificação da branch `main` em 2026-10-15: repositório contém documentaçã
 
 ## Próxima ação
 
-A auditoria documental cruzada dos 36 Markdown foi concluída anteriormente. O proprietário declarou que não haverá revisor clínico; por isso, o MVP proposto foi reduzido a catálogo de ligações para fontes oficiais, sem conteúdo clínico próprio. Em 2026-10-15, a verificação do catálogo foi atualizada: SNS 24 responde com aplicação dependente de JavaScript; uma página oficial NICE NG28 foi localizada, mas o acesso automatizado ao portal-raiz devolveu 403. A issue #1 continua aberta; foram corrigidas caixas indevidamente assinaladas como concluídas. Faltam ratificação formal do âmbito, responsáveis nomeados, evidência de viabilidade e decisão G0/G1. Só depois preparar G2 e selecionar stack.
+A auditoria documental cruzada dos 36 Markdown foi concluída anteriormente. O proprietário declarou que não haverá revisor clínico; por isso, o MVP proposto foi reduzido a catálogo de ligações para fontes oficiais, sem conteúdo clínico próprio. Em 2026-10-15, a verificação do catálogo foi atualizada: SNS 24 responde com aplicação dependente de JavaScript; uma página oficial NICE NG28 foi localizada, mas o acesso automatizado ao portal-raiz devolveu 403. A issue #1 continua aberta; foram corrigidas caixas indevidamente assinaladas como concluídas. Faltam ratificação formal do âmbito, responsáveis nomeados, evidência de viabilidade e decisão G0/G1. Foi criada uma estimativa preliminar de viabilidade com alternativas e intervalo de esforço de 31–54 horas; permanece PROPOSTA, sem compromisso financeiro ou de prazo. Só depois preparar G2 e selecionar stack.
 
 
 ## Adenda de controlo — 2026-10-15
