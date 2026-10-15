@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | PLANO_CONTROLOS |
 | **Fase** | F2 — Arquitetura e proteção de dados |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 0e3872b3c909823765c570f31688db654a48de2688f9f4e97d42b438d91d26f9 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | EM_REVISAO — controlos propostos; avaliação do alojamento pendente |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | 1c38f15d0e38d2bba6ca38fbdfd52e30ecd5fa7c5d35265a99981cf5a97a6dac |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsáveis de segurança e privacidade — a formalizar |
-| **Aprovador** | Pendente de revisão especializada |
+| **Responsável** | Carlos Andrade — responsável de produto; especialista de privacidade/jurídico não designado |
+| **Aprovador** | Pendente de revisão especializada e decisão G2 |
 | **Origem** | Governação MELLITUS e requisitos iniciais |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [Governação MELLITUS](../GOVERNANCA/GOVERNANCA.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -57,3 +57,8 @@ Sem segredos; dependências suportadas; testes críticos de segurança executado
 ## 8. Próxima ação
 
 Executar modelação de ameaças e converter controlos em requisitos/testes. Não marcar controlos ativos sem evidência.
+
+
+## 9. Adenda G2 — 2026-10-15
+
+Foi criada a triagem [AVALIACAO_PRIVACIDADE_MVP.md](AVALIACAO_PRIVACIDADE_MVP.md) e o [modelo de ameaças](AMEACAS.md). O MVP não recolhe dados de saúde, não cria contas, formulários, analytics nem cookies próprios. O fornecedor pode tratar logs técnicos; região, retenção, subprocessadores, papéis RGPD e necessidade de AIPD permanecem UNKNOWN até escolha do alojamento e análise aplicável. Nenhum controlo descrito neste plano é considerado ativo sem teste. G2 permanece EM_REVISAO.
