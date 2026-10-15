@@ -59,7 +59,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 
 ## Auditoria da estrutura (2026-10-15)
 
-A árvore `main` foi consultada após as alterações; os nove documentos estruturantes esperados estão presentes e os cabeçalhos possuem título H1 e campos principais. A validação ainda é parcial: os novos documentos mantêm `PENDENTE_CALCULO` no campo SHA-256 e, portanto, não passam a validação de integridade da norma até ao recálculo correto. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
+A árvore `main` foi consultada após as alterações; os nove documentos estruturantes esperados estão presentes e os cabeçalhos possuem título H1 e campos principais. Os hashes SHA-256 canónicos dos nove documentos novos foram calculados segundo a norma e recalculados após gravação; os nove valores coincidem. Esta verificação não cobre automaticamente todos os documentos históricos do repositório. Não foi executada validação de runtime da aplicação, pois não há implementação funcional verificada.
 
 ## Documentos estruturantes adicionados nesta atualização
 
@@ -74,7 +74,7 @@ A árvore `main` foi consultada após as alterações; os nove documentos estrut
 - `CLINICA/CATALOGO_FONTES.md` e `PROMPT/testes/README.md` — fontes e validação de prompts.
 - `CONTRIBUTING.md`, `SECURITY.md`, `.gitignore`, `.editorconfig`, `.env.example` e `CHANGELOG.md` — práticas do repositório.
 
-Estes artefactos são propostas documentais. Os hashes canónicos dos ficheiros recentemente criados permanecem por calcular segundo a norma GOVERNANCA; a conformidade integral ainda não está demonstrada.
+Estes artefactos são propostas documentais. Os hashes canónicos dos nove documentos estruturantes desta atualização foram calculados e validados. A conformidade integral de todos os documentos preexistentes ainda requer auditoria própria.
 
 ## Próximas ações
 
