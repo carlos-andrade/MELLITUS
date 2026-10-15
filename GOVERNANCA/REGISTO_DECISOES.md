@@ -36,6 +36,8 @@
 | MEL-D007 | 2026-10-15 | Usar cabeçalho Markdown padrão da GOVERNANCA. | EM_CURSO | Norma documental superior. | Calcular/validar SHA-256 e referências de commit. |
 | MEL-D008 | 2026-10-15 | Aplicar gates G0–G6 e estados controlados. | EM_CURSO | Constituição GOVERNANCA. | Criar matriz de gates e aprovações. |
 
+| MEL-D009 | 2026-10-15 | Definir uma estrutura modular para o produto com documentação separada de arquitetura, segurança, qualidade, operações e produto. | EM_REVISAO | Necessidade de preparar desenvolvimento governado e evitar confundir planeamento com implementação. | Revisar ESTRUTURA_PROJETO.md e aprovar por gate aplicável. |
+
 ## Decisões pendentes
 
 | ID | Questão | Responsável | Critério de encerramento |
