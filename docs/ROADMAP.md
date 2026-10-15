@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | d1e5e0c2a5dc1cc976e503ef9a5e80d4114668db2c618cdace074a2ea9808743 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **SHA-256 (conteúdo canónico)** | d184673b097dc2a9d86d899c49461d90e78300398c5b92b133b72fe208209f3c |
+| **Commit de referência (versão anterior)** | [ae991e6d0c633ec6905d2177f57a3f006d0860d0](https://github.com/carlos-andrade/MELLITUS/commit/ae991e6d0c633ec6905d2177f57a3f006d0860d0) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -19,6 +19,10 @@
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [Plano diretor](PLANO_DIRETOR.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
 | **Rastreabilidade** | docs/PLANO_DIRETOR.md; docs/REQUISITOS.md; docs/ARQUITETURA.md; STATUS.md |
+
+## Autoridade do roadmap
+
+Este ficheiro é uma versão auxiliar/legada do plano de fases. A fonte canónica do roadmap é [GESTAO_PROJETO/ROADMAP.md](../GESTAO_PROJETO/ROADMAP.md). Em caso de divergência, prevalece a fonte canónica e o estado confirmado em STATUS.md. O conteúdo abaixo é preservado como histórico de planeamento e não deve ser usado para inferir aprovação de gate.
 
 ## 1. Estado atual verificável
 
