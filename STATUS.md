@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | e15019e01896177cc850374d302a36fdbb9c49a28acca80dd54fe0c4301bf2b1 |
+| **SHA-256 (conteúdo canónico)** | 56ff298bba961e34ad64d3a9a115fe86f5316caaa43c6d192ae8fe07fcc50915 |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -36,7 +36,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 | Fase | Estado | Evidência disponível | Próximo critério |
 |---|---|---|---|
 | F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, aprovar âmbito e registar decisão autorizada |
-| F1 — Evidência clínica | PROPOSTO | Política editorial proposta; revisão clínica por fazer | Fontes verificadas e revisor identificado |
+| F1 — Catálogo de fontes oficiais | PROPOSTO | Catálogo inicial de entidades; verificação por URL ainda por executar | Links oficiais verificados, metadados e aviso de fonte externa; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
 | F3 — MVP educativo | PROPOSTO | Especificação funcional documentada em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
@@ -47,7 +47,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 ## Bloqueios conhecidos
 
 - Responsável de projeto/produto por formalizar.
-- Revisor clínico qualificado por identificar.
+- O proprietário declarou que não haverá revisor clínico; conteúdo clínico próprio, resumos, traduções, interpretações e recomendações ficam excluídos do MVP proposto.
 - Baseline funcional MVP por aprovar.
 - Avaliação legal e de privacidade por realizar.
 - Arquitetura documentada como proposta; aprovação G2 e implementação pendentes.
@@ -97,3 +97,8 @@ Commits no repositório demonstram a gravação documental, não a validação c
 ## Verificação de governação adicional — 2026-10-15
 
 A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o comentário geral do proprietário (“OK, DEI UM ACEITE PARA TODOS.”) e não apresentava evidência individual para nomeação de responsável/revisor clínico, viabilidade ou decisão formal G0/G1. A issue foi reaberta e as caixas foram alinhadas com a evidência observada. A aceitação do âmbito e das exclusões foi registada como parcial; não constitui aprovação de gate. Implementação funcional comprovada: 0%.
+
+
+## Atualização de âmbito — 2026-10-15
+
+O proprietário declarou explicitamente que não haverá revisor clínico. Para não apresentar conteúdo médico como validado, a alternativa proposta para o MVP é um diretório de fontes oficiais com ligações diretas e metadados; o projeto não redigirá, resumirá, traduzirá nem interpretará conteúdo clínico e não recolherá dados pessoais de saúde. O âmbito reduzido e a viabilidade ainda precisam de ratificação G0/G1. Implementação funcional comprovada permanece 0%.
