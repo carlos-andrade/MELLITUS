@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 7cb4d722b4f51146ae6880d74a7fa3b0ef9998d75080edc14e9399d5f7c302e0 |
+| **SHA-256 (conteúdo canónico)** | e6e68906fef3a301cec9301d6e4ecd6c652b0d36dbc9ef874fcc1c366b92cc87 |
 | **Commit de referência (versão anterior)** | [88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc](https://github.com/carlos-andrade/MELLITUS/commit/88f5fae105e4cd1a70c2fcff9d3d961ffd594ccc) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -118,3 +118,9 @@ Foi feita verificação técnica dos oito portais candidatos listados em CLINICA
 - Catálogo: estado técnico consolidado de 7 PASS, 0 WARN e 1 UNKNOWN para oito portais-raiz. A página temática NICE é uma evidência separada e não altera o estado do portal-raiz.
 - Issue #1: corrigidas seis caixas indevidamente assinaladas como concluídas. Mantêm-se pendentes aprovação do âmbito, baseline aprovada, nomeação de responsáveis, viabilidade/custos/riscos, decisão formal G0/G1 e decisão de passagem a G2.
 - Resultado: correção documental executada; G0/G1 continuam NÃO APROVADOS; implementação funcional comprovada permanece 0%. Não foram executados testes de runtime porque não há aplicação funcional verificada.
+
+## Execução adicional — catálogo e viabilidade — 2026-10-15
+
+- Catálogo ampliado com páginas oficiais da OMS (fact sheet Diabetes), DGS (Perguntas e Respostas) e NICE (Initial medicines, NG28), além das páginas DGS, NICE e ADA já listadas. A verificação baseia-se em título, domínio oficial, URL e metadados expostos em pesquisa; não é validação clínica nem substitui confirmação manual periódica.
+- Criado `GESTAO_PROJETO/ESTIMATIVA_VIABILIDADE_MVP.md`: intervalo preliminar de 31–54 horas, alternativas, custos não cotados, riscos e critérios mensuráveis. Estado PROPOSTO; não constitui prazo, orçamento ou autorização.
+- G0/G1 permanecem NÃO APROVADOS. Nenhuma implementação funcional foi iniciada; 0% de implementação comprovada.
