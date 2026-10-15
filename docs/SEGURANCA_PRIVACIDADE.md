@@ -9,7 +9,7 @@
 | **Fase** | F2 — Arquitetura e proteção de dados |
 | **Estado** | EM_REVISAO — controlos propostos; avaliação do alojamento pendente |
 | **Versão** | 1.2.0 |
-| **SHA-256 (conteúdo canónico)** | 3476dd9827c66cf950ee4eebd95886cb142f9520f7158bef249519f6f4b39d43 |
+| **SHA-256 (conteúdo canónico)** | ba3540afee72b1ba9eae8ea7d7b96035224f29f59843b0b49d8bb7b1fc57ee12 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
