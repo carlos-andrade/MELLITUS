@@ -9,7 +9,7 @@
 | **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 92f0e5680526bc1b6a5db5fab46e8e391a16c59d0f0375c9e153c4108d27d72c |
+| **SHA-256 (conteúdo canónico)** | e84258edf7fa71cc1c0aacc46db10c1d79a3b9ffb4af3791a2a2d3463891481d |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -36,6 +36,23 @@ Organizar ligações diretas para páginas de entidades oficiais. O catálogo n�
 | American Diabetes Association (ADA) | https://diabetes.org/ | Standards of Care e informação |
 | European Association for the Study of Diabetes (EASD) | https://www.easd.org/ | Diretrizes e consensos |
 | National Institute for Health and Care Excellence (NICE) | https://www.nice.org.uk/ | Diretrizes e avaliação de tecnologias |
+
+### Verificação técnica dos portais-raiz — 2026-10-15
+
+Esta verificação avalia apenas o acesso ao portal-raiz, não o conteúdo clínico nem páginas temáticas específicas.
+
+| Portal | Resultado observado | Estado |
+|---|---|---|
+| DGS | Página carregada; navegação inclui área/programa de Diabetes | PASS — portal acessível |
+| SNS 24 | Título identificado, mas conteúdo textual não foi extraído | WARN — confirmar manualmente |
+| INFARMED | Página institucional carregada | PASS — portal acessível |
+| EMA | Redirecionou para /en/homepage | PASS — redirecionamento funcional |
+| OMS/WHO | Página institucional carregada | PASS — portal acessível |
+| IDF | Página institucional carregada | PASS — portal acessível |
+| EASD | Redirecionou para /home/ | PASS — redirecionamento funcional |
+| NICE | Erro interno na ferramenta de consulta; resposta não confirmada | UNKNOWN — não marcar como validado |
+
+Resumo: 6 PASS, 1 WARN, 1 UNKNOWN. Confirmar manualmente SNS 24 e NICE e verificar URLs temáticas individuais antes de as publicar no catálogo. Um portal acessível não prova atualidade nem correção clínica.
 
 ## Metadados mínimos por registo
 
