@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | PROPOSTO — decisão pronta para ratificação, não aprovada |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | f37fb8f9bea24e036d18fe4872c0dbeeaa19fe6988c6d016139bf52056bfc0ea |
+| **SHA-256 (conteúdo canónico)** | 501a415932cc9fb4c507cf7f7ac2e6d537ec1ac1e7534cd4460b9d4230e8346d |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -52,3 +52,8 @@ Catálogo estruturado e versionado; pesquisa local se necessária; nenhuma recol
 2. Confirmar modelo de publicação sem assumir custos não autorizados.
 3. Ratificar explicitamente este ADR e o pacote G2.
 4. Só depois abrir/autorizar G3 por decisão própria.
+
+
+## Adenda — candidato de alojamento — 2026-10-15
+
+GitHub Pages é um candidato tecnicamente compatível com site estático e disponível para repositórios públicos no GitHub Free, segundo a documentação oficial ([descrição](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages), [limites](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)). Contudo, a mesma documentação declara que os IPs dos visitantes são registados e armazenados para segurança. O fornecedor não fica selecionado por este ADR: faltam decisão de privacidade, análise dos termos/logs e autorização explícita de publicação. Nenhuma compra ou implementação está autorizada.
