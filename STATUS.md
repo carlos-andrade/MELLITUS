@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 7a7a582fc0c6c8bab4cab36eac19572008e46908a428a510498c27655b6f7f44 |
-| **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
+| **SHA-256 (conteúdo canónico)** | ef280c00f3d81303463810f0fd98e8e32330e200ee95264ce4acd73be4df7482 |
+| **Commit de referência (versão anterior)** | [446b8bfac20e48cdb6073313ef638ed1247c05a6](https://github.com/carlos-andrade/MELLITUS/commit/446b8bfac20e48cdb6073313ef638ed1247c05a6) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -105,4 +105,6 @@ A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o
 O proprietário declarou explicitamente que não haverá revisor clínico. Para não apresentar conteúdo médico como validado, a alternativa proposta para o MVP é um diretório de fontes oficiais com ligações diretas e metadados; o projeto não redigirá, resumirá, traduzirá nem interpretará conteúdo clínico e não recolherá dados pessoais de saúde. O âmbito reduzido e a viabilidade ainda precisam de ratificação G0/G1. Implementação funcional comprovada permanece 0%.
 
 
-A verificação técnica dos portais oficiais foi atualizada em 2026-10-15: 7 PASS, 0 WARN e 1 UNKNOWN. Foram localizadas páginas temáticas oficiais da NICE (NG28), DGS (Diabetes e Relatórios/Publicações) e ADA (About Diabetes); os metadados estão registados no catálogo. Isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
+A verificação técnica dos portais oficiais foi atualizada em 2026-10-15:
+
+A verificação dirigida de páginas temáticas em 2026-10-15 foi registada em `CLINICA/CATALOGO_FONTES.md`: DGS Perguntas e Respostas, OMS Diabetes, NICE NG28 Initial medicines e ADA About Diabetes. A evidência consultada é de pesquisa/títulos/metadados, não substitui teste HTTP direto de todos os URLs nem revisão clínica. Foram acrescentadas notas de método e verificada a integridade SHA-256 canónica do catálogo após a alteração. F1 permanece PROPOSTO; nenhuma aprovação de gate decorre desta atividade. 7 PASS, 0 WARN e 1 UNKNOWN. Foram localizadas páginas temáticas oficiais da NICE (NG28), DGS (Diabetes e Relatórios/Publicações) e ADA (About Diabetes); os metadados estão registados no catálogo. Isto não equivale a revisão clínica. A checklist da issue #1 foi corrigida: seis itens sem evidência individual voltaram a pendente. G0/G1 continuam não aprovados.
