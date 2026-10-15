@@ -9,8 +9,8 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | ef280c00f3d81303463810f0fd98e8e32330e200ee95264ce4acd73be4df7482 |
-| **Commit de referência (versão anterior)** | [446b8bfac20e48cdb6073313ef638ed1247c05a6](https://github.com/carlos-andrade/MELLITUS/commit/446b8bfac20e48cdb6073313ef638ed1247c05a6) |
+| **SHA-256 (conteúdo canónico)** | ce0f8bb8b41031f00902ac0954f26126d80519a27bc126fb4dd803167ff0346d |
+| **Commit de referência (versão anterior)** | [f7261a2991e52608b2c9368699d0d26ff42339e4](https://github.com/carlos-andrade/MELLITUS/commit/f7261a2991e52608b2c9368699d0d26ff42339e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
 | **Responsável** | Responsável de projeto — a formalizar |
@@ -62,6 +62,8 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 A árvore `main` foi comparada com a baseline auditada em `a865fb67477acaf225f90523b5442b8b5a51dbb6`: 41 ficheiros (blobs), dos quais 37 Markdown. Dos 36 Markdown da baseline, 24 permanecem byte-identicamente inalterados; 12 foram atualizados e tiveram o SHA-256 canónico recalculado. O novo documento de decisão também teve o hash recalculado. Os 13 documentos alterados/criados foram verificados individualmente: 13/13 hashes coincidem. A auditoria anterior dos 36 Markdown mantém-se válida para os 24 ficheiros inalterados. A validação de runtime da aplicação não foi executada, pois não há implementação funcional verificada.
 
 ## Rastreabilidade F0
+
+O pacote de decisão consolidado foi publicado em [GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md](GESTAO_PROJETO/PACOTE_DECISAO_F0_G0_G1.md). Contém baseline proposta, critérios mensuráveis, papéis candidatos e cenários de sensibilidade de custo. O documento está PRONTO_PARA_DECISAO, não aprovado; D1–D8 dependem de confirmação explícita do proprietário. G0/G1 continuam pendentes e implementação funcional permanece em 0%.
 
 - Matriz: [docs/MATRIZ_RASTREABILIDADE.md](docs/MATRIZ_RASTREABILIDADE.md).
 - Decisão G0/G1: [issue #1](https://github.com/carlos-andrade/MELLITUS/issues/1), aberta; não equivale a aprovação.
