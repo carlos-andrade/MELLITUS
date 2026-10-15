@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_REVISAO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 249ca1313923f40e669c685659bf51509a9caca3d41bdfcc40aea99f35879dbd |
+| **SHA-256 (conteúdo canónico)** | 4de9ad3c5f8354f71be9c92ed3eb62842ccdf5aed2ff1dbe258623ba7fda1ffc |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -21,7 +21,7 @@
 | **Rastreabilidade** | README.md; GOVERNANCA/REGISTO_DECISOES.md; docs/REQUISITOS.md; docs/RISCOS.md; docs/VALIDACAO.md |
 | **Escopo** | Plataforma educativa pública; acompanhamento pessoal futuro sob controlos específicos |
 | **Objetivo** | Definir visão, entregáveis, fases, responsabilidades e critérios de passagem |
-| **Dependências** | Fontes clínicas, revisor clínico, avaliação legal e de privacidade, equipa técnica |
+| **Dependências** | Fontes oficiais, verificação de links, avaliação legal/privacidade aplicável e equipa técnica |
 
 ## 1. Contexto e estado
 
@@ -29,9 +29,9 @@ O projeto pretende criar uma plataforma de informação e acompanhamento da diab
 
 ## 2. Objetivos
 
-1. Criar biblioteca educativa clara, referenciada e rastreável.
-2. Explicar tipos de diabetes, sintomas, prevenção de complicações e opções de tratamento sem substituir uma consulta.
-3. Estabelecer política editorial com fontes, datas de revisão, correções e retirada de conteúdo.
+1. Criar diretório navegável de fontes oficiais sobre diabetes, com ligações diretas e metadados rastreáveis.
+2. Facilitar a descoberta de informação externa sem resumir, traduzir, interpretar ou recomendar conteúdo clínico.
+3. Manter metadados das fontes e datas de verificação de links; o catálogo não certifica a validade clínica das páginas externas.
 4. Avaliar registos pessoais opcionais apenas após análise de requisitos, minimização de dados, segurança e privacidade.
 5. Disponibilizar meios adequados para consultar, exportar e, quando aplicável, eliminar dados.
 6. Manter rastreabilidade entre requisitos, riscos, decisões, implementação, testes, versões e incidentes.
@@ -49,11 +49,10 @@ O projeto pretende criar uma plataforma de informação e acompanhamento da diab
 
 ### Incluído no planeamento
 
-- Website educativo responsivo.
-- Estrutura editorial e catálogo de fontes.
-- Pesquisa e navegação.
-- Referências por artigo e data de revisão.
-- Avaliação posterior de registo pessoal opcional.
+- Website responsivo para navegação/pesquisa de catálogo de fontes oficiais.
+- Ligações diretas, entidade, título, jurisdição/idioma e data de verificação por registo.
+- Aviso claro de que o MELLITUS não valida clinicamente o conteúdo externo.
+- Avaliação posterior de registo pessoal opcional, fora do MVP e sujeita a gates próprios.
 - Documentação, testes, segurança, privacidade, recuperação e operação.
 
 ### Excluído do MVP
@@ -70,9 +69,9 @@ O projeto pretende criar uma plataforma de informação e acompanhamento da diab
 | Fase | Atividades | Entregáveis | Gate de saída |
 |---|---|---|---|
 | F0 — Governação e requisitos | Charter, âmbito, donos, requisitos, riscos, dependências | Documentos fundacionais | G0/G1 aceites; responsáveis e critérios explícitos |
-| F1 — Evidência clínica | Selecionar fontes, matriz de afirmações, política de revisão | Catálogo de fontes e conteúdos piloto revistos | Conteúdo piloto com referências e revisão identificável |
+| F1 — Catálogo de fontes oficiais | Selecionar entidades oficiais, verificar URLs e definir metadados | Catálogo rastreável de fontes externas | Links verificados, metadados completos e âmbito reduzido ratificado |
 | F2 — Arquitetura e privacidade | Modelo de dados, ameaças, acessos, retenção, backups | Arquitetura e avaliação de riscos | G2 aceite; bloqueios identificados |
-| F3 — MVP educativo | Páginas, navegação, pesquisa, referências, acessibilidade | Versão educativa testável | G3 aceite; requisitos críticos testados |
+| F3 — MVP diretório de fontes | Páginas responsivas, navegação/pesquisa, links oficiais e metadados | Versão testável sem conteúdo clínico próprio | G3 aceite; requisitos críticos testados |
 | F4 — Acompanhamento pessoal | Registo, histórico, visualizações e exportação | Módulo isolado e documentado | Aprovação de privacidade, segurança e usabilidade |
 | F5 — Qualidade e validação | Testes funcionais, segurança, acessibilidade, revisão clínica | Relatórios e registo de defeitos | Sem bloqueios críticos; exceções formalizadas |
 | F6 — Piloto e lançamento | Piloto limitado, suporte, observabilidade, rollback | Relatório de piloto e autorização | G4/G5 aprovados |
@@ -91,7 +90,7 @@ O progresso é calculado com tarefas e evidências verificáveis. Documento redi
 ## 8. Critérios de aceitação
 
 - Requisitos críticos rastreados a testes ou evidências.
-- Conteúdo clínico com fonte verificável e revisão adequada.
+- Ligações para fontes oficiais verificadas e claramente identificadas; não publicar conteúdo clínico próprio sem revisão apropriada.
 - Testes críticos aprovados e defeitos bloqueadores resolvidos.
 - Sem vulnerabilidades críticas/altas conhecidas sem tratamento aprovado na versão de lançamento.
 - Privacidade, base legal, acesso, retenção e direitos documentados.
@@ -105,10 +104,15 @@ Ver [docs/RISCOS.md](RISCOS.md). Riscos clínicos, de privacidade, ciberseguran�
 
 ## 10. Próxima ação
 
-Completar F0: confirmar responsável e revisores, aprovar requisitos, classificar a iniciativa segundo GOVERNANCA e formalizar G0/G1. F0 permanece em curso até haver evidência e decisão registadas.
+Completar F0: ratificar âmbito reduzido sem revisor clínico, formalizar responsável, estimar viabilidade e registar decisão G0/G1. O proprietário decidiu que não haverá revisor; por isso, o MVP proposto não inclui conteúdo clínico próprio nem dados pessoais de saúde. F0 permanece em curso até haver evidência e decisão registadas.
 
 ## 11. Histórico de alterações
 
 | Versão | Data | Alteração | Responsável | Evidência |
 |---|---|---|---|---|
 | 1.0.0 | 2026-10-15 | Criação do plano diretor inicial | Responsável — a formalizar | Commit GitHub de criação |
+
+
+## 12. Restrição de âmbito — 2026-10-15
+
+O proprietário declarou que não haverá revisor clínico. A resposta de segurança proposta é um MVP de diretório de fontes oficiais com ligações diretas e metadados, sem artigos clínicos originais, resumos, traduções, interpretações, recomendações ou recolha de dados pessoais de saúde. Esta restrição não elimina obrigações legais nem substitui avaliação de risco; o âmbito reduzido continua sujeito a ratificação G0/G1.
