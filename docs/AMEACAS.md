@@ -9,7 +9,7 @@
 | **Fase** | G2 — Arquitetura e privacidade |
 | **Estado** | EM_REVISAO — modelo documental; sem teste técnico executado |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | ff9f6207771e000b51eaba68a54ce744c95a13d4c1d6e385a5a2578e4711e950 |
+| **SHA-256 (conteúdo canónico)** | d1a238995a464203943a73ffb19e77eb6ff92055b86f93569623e2a2832975fa |
 | **Commit de referência (versão anterior)** | N/A — documento inicial G2 |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
