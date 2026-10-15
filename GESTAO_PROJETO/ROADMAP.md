@@ -9,7 +9,7 @@
 | **Fase** | G2 — preparação e avaliação de arquitetura/privacidade |
 | **Estado** | G0/G1 APROVADOS; G2 EM_REVISAO — preparação documental |
 | **Versão** | 1.1.0 |
-| **SHA-256 (conteúdo canónico)** | fc9e6578d954f7ba7cdafe278751df4b190526ddf5211b0d8f6bf642a05e1d32 |
+| **SHA-256 (conteúdo canónico)** | c13eb7ed4178350388d5831b0a74ca2b749f50acb7ddb9e82bda60efdad14f01 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
