@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | EM_CURSO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | ea634e83f00aa774a5f5a4422eae26fbf585997001aa2ffd40011d4a298617a0 |
+| **SHA-256 (conteúdo canónico)** | f980506c28fdcd90c78c7b80a3bb8804abf600944bf574f22b8bc5b53bc28dfc |
 | **Commit de referência (versão anterior)** | [103ed03a3b509e33aa2cba9313b1056a2ac0a5e4](https://github.com/carlos-andrade/MELLITUS/commit/103ed03a3b509e33aa2cba9313b1056a2ac0a5e4) |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -36,7 +36,7 @@ A documentação inicial não equivale a produto implementado, conteúdo validad
 | Fase | Estado | Evidência disponível | Próximo critério |
 |---|---|---|---|
 | F0 — Governação e requisitos | EM_CURSO | Documentação inicial, matriz de rastreabilidade e issue #1 para decisão G0/G1 | Formalizar responsáveis, aprovar âmbito e registar decisão autorizada |
-| F1 — Catálogo de fontes oficiais | PROPOSTO | Catálogo inicial de entidades; verificação por URL ainda por executar | Links oficiais verificados, metadados e aviso de fonte externa; sem conteúdo clínico próprio |
+| F1 — Catálogo de fontes oficiais | PROPOSTO | Verificação inicial dos oito portais-raiz: 6 PASS, 1 WARN, 1 UNKNOWN; páginas temáticas ainda por verificar | Confirmar WARN/UNKNOWN, verificar URLs temáticas e metadados; sem conteúdo clínico próprio |
 | F2 — Arquitetura e privacidade | EM_REVISAO | Proposta em ARQUITETURA/ e SEGURANCA/; ainda sem aprovação | Validar stack, modelo de ameaças, privacidade e G2 |
 | F3 — MVP diretório de fontes | PROPOSTO | Especificação de catálogo externo em PRODUTO/; sem aplicação funcional verificada | Implementar e demonstrar testes após G2 |
 | F4 — Acompanhamento pessoal | BLOQUEADO | Requisitos e desenho para dados pessoais de saúde ainda não aprovados | Aprovação G2 e controlos de privacidade |
@@ -103,3 +103,6 @@ A issue #1 estava fechada com todas as caixas assinaladas, mas continha apenas o
 ## Atualização de âmbito — 2026-10-15
 
 O proprietário declarou explicitamente que não haverá revisor clínico. Para não apresentar conteúdo médico como validado, a alternativa proposta para o MVP é um diretório de fontes oficiais com ligações diretas e metadados; o projeto não redigirá, resumirá, traduzirá nem interpretará conteúdo clínico e não recolherá dados pessoais de saúde. O âmbito reduzido e a viabilidade ainda precisam de ratificação G0/G1. Implementação funcional comprovada permanece 0%.
+
+
+A verificação inicial dos portais oficiais em 2026-10-15 registou 6 PASS, 1 WARN e 1 UNKNOWN. O detalhe e as limitações estão em CLINICA/CATALOGO_FONTES.md; não equivale a revisão clínica.
