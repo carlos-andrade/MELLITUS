@@ -7,14 +7,14 @@
 | **Repositório** | [carlos-andrade/MELLITUS](https://github.com/carlos-andrade/MELLITUS) |
 | **Tipo documental** | ARQUITETURA |
 | **Fase** | F2 — Arquitetura e proteção de dados |
-| **Estado** | EM_REVISAO |
-| **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | c8034f785c776d9053dead5205b1a94643d4b8f1bdf5afb0862b68490fb79853 |
-| **Commit de referência (versão anterior)** | N/A — documento inicial |
+| **Estado** | EM_REVISAO — arquitetura estática proposta; G2 não aprovado |
+| **Versão** | 1.1.0 |
+| **SHA-256 (conteúdo canónico)** | 8c26e86d66ef700e53197c072f94e725c7b13d2711f165be42b3cfc3b294408f |
+| **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
-| **Responsável** | Responsável técnico — a formalizar |
-| **Aprovador** | Pendente de aprovação do desenho (G2) |
+| **Responsável** | Carlos Andrade — patrocinador/responsável de produto; responsável técnico a designar |
+| **Aprovador** | Pendente de decisão G2 |
 | **Origem** | Plano diretor, requisitos iniciais e regras GOVERNANCA |
 | **Autoridade superior** | [GOVERNANCA](https://github.com/carlos-andrade/GOVERNANCA); [Governação MELLITUS](../GOVERNANCA/GOVERNANCA.md) |
 | **Cadeia de autoridade** | PROMPTS → CARTAS → LAYOUT ÚNICO → CÓDIGO |
@@ -122,3 +122,8 @@ Requisitos aprovados; diagramas e fluxos de dados revistos; modelo e classifica�
 ## 11. Próxima ação
 
 Concluir requisitos e avaliar alternativas técnicas antes de criar componentes funcionais.
+
+
+## 12. Adenda G2 — 2026-10-15
+
+A opção recomendada para o MVP é um site estático a partir de catálogo versionado, sem backend, base de dados, contas, formulários, analytics ou recursos remotos de terceiros. A pesquisa, se necessária, deve ser local no navegador. O fornecedor/região de alojamento permanece por decidir, pois logs, termos, subprocessadores, localização, recuperação e custos ainda não foram avaliados. Ver [pacote G2](../GESTAO_PROJETO/PACOTE_G2_ARQUITETURA_PRIVACIDADE.md), [ADR-001](ADR/ADR-001-ARQUITETURA-ESTATICA.md), [modelo de ameaças](AMEACAS.md) e [triagem de privacidade](AVALIACAO_PRIVACIDADE_MVP.md). Esta adenda é documental; não prova implementação nem aprova G2.
