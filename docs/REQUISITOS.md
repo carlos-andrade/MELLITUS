@@ -9,7 +9,7 @@
 | **Fase** | F0 — Governação e requisitos |
 | **Estado** | APROVADO — baseline funcional do MVP estático (G0/G1) |
 | **Versão** | 1.2.0 |
-| **SHA-256 (conteúdo canónico)** | 706d61316da7177728852114ec9d0a1aa0e1c7687f73893f5ed05b7c4de46f0c |
+| **SHA-256 (conteúdo canónico)** | fe6b1e124f439993f0d66f948adededd9d6cd8bdfa321fc977d4c5346cc16830 |
 | **Commit de referência (versão anterior)** | Histórico Git preservado; SHA do commit anterior não verificado nesta atualização |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
