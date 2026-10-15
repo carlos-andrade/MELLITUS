@@ -83,15 +83,6 @@ Este conjunto documental está em revisão. A sua existência não demonstra apr
 - [Estratégia de qualidade e testes](QUALIDADE_TESTES/README.md)
 - [Operações, implantação e WATCHDOG](OPERACOES/README.md)
 
-- [Estrutura completa do projeto](ESTRUTURA_PROJETO.md)
-- [Roadmap de implementação](GESTAO_PROJETO/ROADMAP.md)
-- [Especificação funcional do produto](PRODUTO/README.md)
-- [Arquitetura da aplicação](ARQUITETURA/README.md)
-- [Modelo conceptual de dados](ARQUITETURA/MODELO_DE_DADOS.md)
-- [Segurança, privacidade e conformidade](SEGURANCA/README.md)
-- [Estratégia de qualidade e testes](QUALIDADE_TESTES/README.md)
-- [Operações, implantação e WATCHDOG](OPERACOES/README.md)
-
 ## Gates e lançamento
 
 Nenhuma fase se considera concluída apenas por existir código ou documentação. Exigem-se entregáveis verificáveis, evidências de validação, riscos tratados ou aceites por autoridade competente e decisão explícita de passagem de fase. Obrigações legais e controlos críticos não são dispensáveis.
