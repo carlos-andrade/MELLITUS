@@ -9,7 +9,7 @@
 | **Fase** | F1 — Catálogo de fontes oficiais |
 | **Estado** | PROPOSTO |
 | **Versão** | 1.0.0 |
-| **SHA-256 (conteúdo canónico)** | 7fc97eeae2168465ffa6c7f478d89cf2ee72e66935c9939b66b6b4284cb100eb |
+| **SHA-256 (conteúdo canónico)** | 5693f5e04b17a9422e8df1f674c600754d8ee79736cbf65ce4f5b10f3cd6938b |
 | **Commit de referência (versão anterior)** | N/A — documento inicial |
 | **Data de criação** | 2026-10-15 |
 | **Data de atualização** | 2026-10-15 |
@@ -61,6 +61,9 @@ As páginas abaixo foram localizadas em pesquisa e identificadas como pertencent
 | Entidade | Título publicado pela entidade | URL direta | Evidência observada | Estado |
 |---|---|---|---|---|
 | NICE | Type 2 diabetes in adults: management — Blood glucose management (NG28) | https://www.nice.org.uk/guidance/ng28/chapter/Blood-glucose-management | Página oficial indexada; data de publicação indicada: 02-12-2015; última atualização indicada: 18-02-2026 | PASS — existência e metadados técnicos confirmados |
+| DGS | Diabetes | https://www.dgs.pt/paginas-de-sistema/saude-de-a-a-z/diabetes.aspx | Página oficial indexada com título “Diabetes” e referência ao Programa Nacional para a Diabetes | PASS — existência e metadados técnicos confirmados |
+| DGS | Programa Nacional para a Diabetes — Relatórios e Publicações | https://www.dgs.pt/programa-nacional-para-a-diabetes/relatorios-e-publicacoes.aspx | Página oficial indexada; lista relatórios e publicações, incluindo material de 2025 e 2024 | PASS — existência e metadados técnicos confirmados |
+| ADA | About Diabetes | https://diabetes.org/about-diabetes | Página oficial indexada; título “About Diabetes” e conteúdo introdutório identificado | PASS — existência e metadados técnicos confirmados |
 
 Não foi ainda localizada uma página temática individual do SNS 24 sobre diabetes com evidência suficiente para registo. Não preencher por inferência.
 
